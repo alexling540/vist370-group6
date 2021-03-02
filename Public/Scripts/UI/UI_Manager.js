@@ -117,12 +117,14 @@ var closeInfoCard = function() {
         global.isOpen = false;
         
         script.infoUI.enabled = false;
+        script.homeUI.enabled = true;
     });
 }
 
 global.openInfoCard = function(infoCardIndex) {
     print('opening');    
     
+    script.homeUI.enabled = false;
     script.infoUI.enabled = true;
     global.isOpen = true;
     
