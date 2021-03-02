@@ -3,7 +3,7 @@
     "document_id": "D0uW6_yvYOjccc8SqUTP",
     "original_document_id": "xE6MOwO3Dj9iAS0C4EpP",
     "version": "27",
-    "lastChanged": "1614671518414",
+    "lastChanged": "1614716439692",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -193,27 +193,7 @@
                     ],
                     [
                         "Scripts",
-                        "Behavior"
-                    ],
-                    [
-                        "Scripts",
-                        "Script"
-                    ],
-                    [
-                        "Scripts",
                         "Spawner"
-                    ],
-                    [
-                        "Scripts",
-                        "Tab_v3"
-                    ],
-                    [
-                        "Scripts",
-                        "Tap"
-                    ],
-                    [
-                        "Scripts",
-                        "Tap_v2"
                     ],
                     [
                         "Scripts",
@@ -483,7 +463,7 @@
                     "1614205135962622:662786",
                     "1614206234926117:840702",
                     "1614216301240692:588573",
-                    "1614658337815108:11107925"
+                    "1614216748213875:679363"
                 ]
             ]
         },
@@ -1035,14 +1015,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "302",
-                    "uid": "1614209673889264:448660",
-                    "name": "Files\/File404.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "303",
                     "uid": "1614213175356324:136948",
                     "name": "Bamboo",
@@ -1075,14 +1047,6 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "312",
-                    "uid": "1614216614341757:661228",
-                    "name": "Files\/File423.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "313",
                     "uid": "1614216933528558:767844",
                     "name": "Files\/File424.js",
@@ -1094,30 +1058,6 @@
                     "resId": "315",
                     "uid": "1614226882466239:1396411",
                     "name": "Files\/File429",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "316",
-                    "uid": "1614556287867718:1236718",
-                    "name": "Files\/File433.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "317",
-                    "uid": "1614558238392505:1473747",
-                    "name": "Files\/File434.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "318",
-                    "uid": "1614658802498990:11198957",
-                    "name": "Files\/File435.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1245,62 +1185,6 @@
                             }
                         },
                         {
-                            "k": "1614658546280586:11144859",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "true",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1614667527288908:12403672",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "true",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1614667529109035:12407909",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "true",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1614667530932241:12412211",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "true",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
                             "k": "1614668420747904:12594737",
                             "v": {
                                 "isBasicMode": "true",
@@ -1386,30 +1270,17 @@
                 "34": "1614216748271089:679506",
                 "35": "1614216879696106:733538",
                 "36": "1614217358398087:869034",
-                "37": "1614223407695407:646310",
-                "38": "1614223993597918:803444",
-                "39": "1614225025266398:1001307",
-                "40": "1614225131245010:1023037",
-                "41": "1614237910305921:46619",
-                "42": "1614238096884901:86016",
-                "43": "1614238109677730:89748",
-                "44": "1614238628037977:234900",
-                "45": "1614238649198198:241739",
-                "46": "1614238740586561:277503",
-                "47": "1614238752713627:281269",
-                "48": "1614559289931672:1643103",
-                "49": "1614567140856081:2616458",
-                "50": "1614567525357373:2701035",
-                "51": "1614567614599407:2713712",
-                "52": "1614658337815108:11107925",
-                "53": "1614658546280305:11144858",
-                "54": "1614658869275959:11220020",
-                "55": "1614667527277756:12403666",
-                "56": "1614667529108045:12407907",
-                "57": "1614667530930868:12412209",
-                "58": "1614668420688358:12594473",
-                "59": "1614669049595235:12720332",
-                "60": "1614670846663583:13159053"
+                "37": "1614237910305921:46619",
+                "38": "1614238096884901:86016",
+                "39": "1614238628037977:234900",
+                "40": "1614238740586561:277503",
+                "41": "1614559289931672:1643103",
+                "42": "1614567140856081:2616458",
+                "43": "1614567525357373:2701035",
+                "44": "1614567614599407:2713712",
+                "45": "1614668420688358:12594473",
+                "46": "1614669049595235:12720332",
+                "47": "1614670846663583:13159053"
             }
         },
         "LayerComponent": {
@@ -2081,10 +1952,6 @@
                     "v": "Files\/File403.pvr"
                 },
                 {
-                    "k": "404",
-                    "v": "Files\/File404.js"
-                },
-                {
                     "k": "419",
                     "v": "Files\/File419.oprfb"
                 },
@@ -2099,10 +1966,6 @@
                 {
                     "k": "422",
                     "v": "Files\/File422.oprfb"
-                },
-                {
-                    "k": "423",
-                    "v": "Files\/File423.js"
                 },
                 {
                     "k": "424",
@@ -2123,18 +1986,6 @@
                 {
                     "k": "432",
                     "v": "Files\/File432"
-                },
-                {
-                    "k": "433",
-                    "v": "Files\/File433.js"
-                },
-                {
-                    "k": "434",
-                    "v": "Files\/File434.js"
-                },
-                {
-                    "k": "435",
-                    "v": "Files\/File435.js"
                 },
                 {
                     "k": "436",
@@ -2328,10 +2179,6 @@
                         "v": "Scripts\/Tween\/TweenManager.js"
                     },
                     {
-                        "k": "96",
-                        "v": "Scripts\/Tap.js"
-                    },
-                    {
                         "k": "97",
                         "v": "Scripts\/UI"
                     },
@@ -2440,28 +2287,12 @@
                         "v": "Plants\/Bonsai_BIG.oprfb"
                     },
                     {
-                        "k": "136",
-                        "v": "Scripts\/Script.js"
-                    },
-                    {
                         "k": "137",
                         "v": "Scripts\/UI\/UI_Manager.js"
                     },
                     {
                         "k": "139",
                         "v": "jerry"
-                    },
-                    {
-                        "k": "140",
-                        "v": "Scripts\/Behavior.js"
-                    },
-                    {
-                        "k": "141",
-                        "v": "Scripts\/Tap_v2.js"
-                    },
-                    {
-                        "k": "142",
-                        "v": "Scripts\/Tab_v3.js"
                     },
                     {
                         "k": "143",
@@ -2795,7 +2626,7 @@
                     },
                     {
                         "k": "115",
-                        "v": "4ad365ad1334c8c2c56e786a661836c5"
+                        "v": "b22d3fcae04940a1c4330d9f61e0405b"
                     },
                     {
                         "k": "117",
@@ -2895,7 +2726,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-03-01T22:16:27",
                         "name": "Public",
-                        "hash": "57ac08f7d618fd6694dea30a43596dd8",
+                        "hash": "d7827e7f18759aaa467592fea0093cdb",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -3007,17 +2838,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-02T01:44:24",
+                                "lastModified": "2021-03-02T14:20:27",
                                 "name": "Scripts",
-                                "hash": "27c472440d406cbb0fb16d98b8e4bdcb",
+                                "hash": "03c173e95e92b5726d1613858c170a62",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-02-24T17:22:52",
-                                        "name": "Behavior.js",
-                                        "hash": "91c13f7497081d3638dd81f8c7b017fd",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2021-02-24T18:18:10",
@@ -3027,37 +2851,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-02-26T01:27:06",
-                                        "name": "Script.js",
-                                        "hash": "c4e242669c13bf9ebcf4079e011c7fc0",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-02-26T02:13:02",
+                                        "lastModified": "2021-03-02T14:15:44",
                                         "name": "Spawner.js",
-                                        "hash": "4ad365ad1334c8c2c56e786a661836c5",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-02T00:59:57",
-                                        "name": "Tab_v3.js",
-                                        "hash": "0fed4fbdfe26be6004901bb5fdee2a6a",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-01T22:20:51",
-                                        "name": "Tap.js",
-                                        "hash": "b8f6109c5b530c63c4ca89b5111a28ce",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-02-28T18:38:17",
-                                        "name": "Tap_v2.js",
-                                        "hash": "cb1ebcac4c8c0109eb14e6a73026772f",
+                                        "hash": "b22d3fcae04940a1c4330d9f61e0405b",
                                         "children": ""
                                     },
                                     {
@@ -4541,19 +4337,6 @@
                                 ]
                             },
                             {
-                                "name": "Tap",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "302",
-                                "dependency": "0",
-                                "uid": "1614209673889264:448660",
-                                "fileId": "404",
-                                "originalId": "18446744073709551615",
-                                "publicId": "96",
-                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-jWKnUM\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "UI",
                                 "type": "0",
                                 "subtype": "-1",
@@ -4826,58 +4609,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Script",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "312",
-                                "dependency": "0",
-                                "uid": "1614216614341757:661228",
-                                "fileId": "423",
-                                "originalId": "18446744073709551615",
-                                "publicId": "136",
-                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-TJRviX\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Behavior",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "316",
-                                "dependency": "0",
-                                "uid": "1614556287867718:1236718",
-                                "fileId": "433",
-                                "originalId": "18446744073709551615",
-                                "publicId": "140",
-                                "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/Presets\/Scripts\/BehaviorScript.js",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Tap_v2",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "317",
-                                "dependency": "0",
-                                "uid": "1614558238392505:1473747",
-                                "fileId": "434",
-                                "originalId": "18446744073709551615",
-                                "publicId": "141",
-                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-uTZWHg\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Tab_v3",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "318",
-                                "dependency": "0",
-                                "uid": "1614658802498990:11198957",
-                                "fileId": "435",
-                                "originalId": "18446744073709551615",
-                                "publicId": "142",
-                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-uTZWHg\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "Tap_v3",
                                 "type": "4",
                                 "subtype": "0",
@@ -4937,7 +4668,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1573613351019456:353372"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",

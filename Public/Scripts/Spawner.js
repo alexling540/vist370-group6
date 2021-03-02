@@ -1,4 +1,4 @@
-// -----JS CODE Created by Ben Knutson 11/14/19-----
+// -----JS CODE-----
 // @input Asset.ObjectPrefab[] objectPrefab
 // @input SceneObject[] objectPreview
 // @input Component.ScriptComponent[] objectTaps
@@ -52,9 +52,9 @@ event.bind(function (eventData)
     // If Tween Value is running
     if (global.tweening)
     {
-        //tweenValue = global.tweenManager.getGenericTweenValue(script.tween, "grow");
-        //currentScale = new vec3(tweenValue,tweenValue,tweenValue);
-        //currentTransform.setLocalScale(currentScale);
+        tweenValue = global.tweenManager.getGenericTweenValue(script.tween, "grow");
+        currentScale = new vec3(tweenValue, tweenValue, tweenValue);
+        currentTransform.setLocalScale(currentScale);
     }
 });
 
@@ -66,7 +66,7 @@ function growSelectedTree()
         script.objectPreview[currentTreeIndex].enabled = false;
         
         // Instantiate current object selected, set it under the WorldObjectController
-        currentTreeGrowing = script.objectPrefab[currentTreeIndex].instantiate(script.base);
+        //currentTreeGrowing = script.objectPrefab[currentTreeIndex].instantiate(script.base);
         // Scale new object down to 0, then start Tween Value with a callback
         //currentTransform = currentTreeGrowing.getTransform();
         //currentTransform.setLocalScale(currentScale);    
@@ -85,23 +85,26 @@ function growSelectedTree()
 //        print(newscript.api.open);
 //        newObj.setParent(script.scene);
         
-        var newObj = script.scene.copySceneObject(script.objectPreview[currentTreeIndex]);
+        var newObj = script.scene.copyWholeHierarchy(script.objectPreview[currentTreeIndex]);
         
-        currentTreeGrowing.setParent(newObj);
-        newObj.copySceneObject(script.objectPreview[currentTreeIndex].getChild(1));
+        //var newObj = script.scene.copySceneObject(script.objectPreview[currentTreeIndex]);
+        
+        //currentTreeGrowing.setParent(newObj);
+        //newObj.copySceneObject(script.objectPreview[currentTreeIndex].getChild(1));
         newObj.enabled = true;
         
-        print(script.scene.getChildrenCount());
-        print(newObj.getChildrenCount());
+        currentTransform = newObj.getChild(0).getTransform();
+        currentTransform.setLocalScale(currentScale);        
+        
+        print("scene: " + script.scene.getChildrenCount());
+        print("obj: " + newObj.getChildrenCount());
         var newObjTransform = newObj.getTransform();
         newObjTransform.setWorldPosition(editSceneTransformations.position);
         newObjTransform.setWorldRotation(editSceneTransformations.rotation);
         newObjTransform.setWorldScale(editSceneTransformations.scale);          
         
-        //global.tweenManager.startTween(script.tween, "grow", setFalse);
+        global.tweenManager.startTween(script.tween, "grow", setFalse);
         
-        script.objectPreview[currentTreeIndex].enabled = true;
-        global.tweening = false;
     }
 }
 
@@ -109,7 +112,9 @@ function setFalse()
 {
     global.tweening = false;
     // Once object is finished growing, move it to the scene and re enable preview object
-    setParentInPlace(currentTreeGrowing, script.scene);
+    //setParentInPlace(currentTreeGrowing, script.scene);
+    var baseTransform = script.base.getTransform();
+    baseTransform.setWorldPosition(new vec3(0, 0, 0));
     script.objectPreview[currentTreeIndex].enabled = true;
 }
 
