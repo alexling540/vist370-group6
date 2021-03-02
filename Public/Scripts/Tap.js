@@ -1,9 +1,11 @@
 // -----JS CODE-----
 
-//@input Component.BaseMeshVisual touchEventTouchTarget {"label": "Touch Target"}
+//@input Component.BaseMeshVisual touchTarget {"label": "Touch Target"}
 //@input Asset.Texture animateImageAnimatedTexture {"label": "Animated Texture"}
 //@input Component.MaterialMeshVisual animateImageVisualObject {"label": "Visual Object"}
 
+
+// DO NOT NEED animateImageAnimatedTexture
 
 var open = false;
 
@@ -13,9 +15,9 @@ function onLensTurnOnEvent() {
 }
 
 function ffff(animatedTexture) {
-        print("before: " + open);
+    print("before: " + open);
     open = !open;
-        print("after: " + open);
+    print("after: " + open);
     animatedTexture.isReversed = open;
     if (!open) {
         script.animateImageVisualObject.enabled = false;
@@ -27,8 +29,8 @@ function ffff(animatedTexture) {
 function onTap(eventData) {
     if (global.scene.getCameraType() == "back") {
         
-        if (!global.isEditing) {
-            var tex = script.animateImageAnimatedTexture;
+        //if (!global.isEditing) {
+            var tex = script.animateImageVisualObject.getMaterial(0).getPass(0).baseTex;
             var control = tex.control;
             
             if (!open) {
@@ -36,7 +38,7 @@ function onTap(eventData) {
             }
             control.play(1, 0); 
             control.setOnFinish(ffff);
-        }
+        //}
     }
 }
 
