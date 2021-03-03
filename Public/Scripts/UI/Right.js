@@ -2,7 +2,6 @@
 
 global.right = false;
 
-var event = script.createEvent("TapEvent");
-event.bind(function(eventData) {
+script.createEvent("TapEvent").bind(function(eventData) {
     global.right = true;
 });

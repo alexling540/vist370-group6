@@ -12,18 +12,18 @@ var currentCard;
 
 var delayed = script.createEvent('DelayedCallbackEvent');
 
-const debounceDelay = 0.5;
+const debounceDelay = 1;
 
 function debounce(func, time) {
     var timeout;
     return function() {
-        var context = this;
-        var args = arguments;
         var later = function() {
             timeout = null;
         };
-        if (!timeout) {    
-            delayed.bind(func);
+        if (!timeout) {
+            func();
+        } else {    
+            delayed.bind(later);
             delayed.reset(time);
         }
     }
@@ -44,20 +44,20 @@ script.editButton
     .createComponent('Component.ScriptComponent')
     .createEvent('TapEvent')
     .bind(debounce(function (eventData) {
-        global.isEditing = true;
         script.homeUI.enabled = false;
         script.editUI.enabled = true;
         script.editController.enabled = true;
+        global.isEditing = true;
     }, debounceDelay));
 
 script.homeButton
     .createComponent('Component.ScriptComponent')
     .createEvent('TapEvent')
     .bind(debounce(function (eventData) {
-        global.isEditing = false;
         script.editUI.enabled = false;
         script.editController.enabled = false;
         script.homeUI.enabled = true;
+        global.isEditing = false;
     }, debounceDelay));
 
 script.closeButton
@@ -68,42 +68,7 @@ script.closeButton
     }, debounceDelay));
 
 
-//var currentlyOpen = null;
-//
-//script.createEvent("TurnOnEvent").bind(function() {
-//    currentlyOpen = null;
-//});
-
-//script.createEvent("UpdateEvent").bind(function(eventData) {  
-//    
-//    if (currentlyOpen == null && global.openInfo != null) { // nothing is open, and something opened
-//        script.infoUI.enabled = true;        
-//        global.openInfo.enabled = true;
-//        
-//        var texture = global.openInfo.getMaterial(0).getPass(0).baseTex;
-//        var control = texture.control;
-//        
-//        control.play(1, 0);
-//        control.setOnFinish(function(animatedTexture) {
-//            animatedTexture.isReversed = true;
-//            animatedTexture.pauseAtFrame(0);
-//            currentlyOpen = global.openInfo;
-//            global.isOpen = true;
-//        });        
-//    } else if (currentlyOpen != null && global.openInfo == null) { // something is open, and it closed
-//        var texture = currentlyOpen.getMaterial(0).getPass(0).baseTex;
-//        var control = texture.control;
-//        
-//        control.play(1, 0); 
-//        control.setOnFinish(function(animatedTexture) {
-//            animatedTexture.isReversed = false;
-//            currentlyOpen.enabled = false;
-//            currentlyOpen = null;
-//            global.isOpen = false;
-//        });
-//    }
-//});
-var closeInfoCard = function() {
+var closeInfoCard = debounce(function() {
     print('closing');    
     
     var texture = currentCard.getMaterial(0).getPass(0).baseTex;
@@ -119,10 +84,10 @@ var closeInfoCard = function() {
         script.infoUI.enabled = false;
         script.homeUI.enabled = true;
     });
-}
+}, debounceDelay);
 
 global.openInfoCard = function(infoCardIndex) {
-    print('opening');    
+    print('opening');
     
     script.homeUI.enabled = false;
     script.infoUI.enabled = true;

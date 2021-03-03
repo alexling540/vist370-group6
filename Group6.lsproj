@@ -3,7 +3,7 @@
     "document_id": "D0uW6_yvYOjccc8SqUTP",
     "original_document_id": "xE6MOwO3Dj9iAS0C4EpP",
     "version": "27",
-    "lastChanged": "1614720167973",
+    "lastChanged": "1614733624020",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -87,10 +87,6 @@
                     ],
                     [
                         "Plants",
-                        "Bamboo_BIG"
-                    ],
-                    [
-                        "Plants",
                         "Bonsai"
                     ],
                     [
@@ -131,10 +127,6 @@
                         "Bonsai",
                         "Meshes",
                         "Trunk"
-                    ],
-                    [
-                        "Plants",
-                        "Bonsai_BIG"
                     ],
                     [
                         "Plants",
@@ -415,6 +407,11 @@
                     [
                         "Textures",
                         "plants",
+                        "bamboo_trunk_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
                         "bonsai_branches"
                     ],
                     [
@@ -444,10 +441,6 @@
                     ],
                     [
                         "Textures",
-                        "ui"
-                    ],
-                    [
-                        "Textures",
                         "ui",
                         "arrow"
                     ],
@@ -455,6 +448,21 @@
                         "Textures",
                         "ui",
                         "check"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "close_button"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "finish_button"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "start_button"
                     ],
                     [
                         "Textures",
@@ -479,11 +487,9 @@
                     "1614204987669828:635088",
                     "1614205135962622:662786",
                     "1614206234926117:840702",
-                    "1614216301240692:588573",
+                    "1614206234927214:840720",
                     "1614237910305921:46619",
-                    "1614238096884901:86016",
-                    "1614238628037977:234900",
-                    "1614238740586561:277503"
+                    "1614238096884901:86016"
                 ]
             ]
         },
@@ -532,7 +538,8 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
-                    "1614216879737610:733680"
+                    "1614216879737610:733680",
+                    "1614668420781112:12594875"
                 ]
             ]
         },
@@ -1051,22 +1058,6 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "310",
-                    "uid": "1614216318825339:596410",
-                    "name": "Bamboo",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
-                    "resId": "311",
-                    "uid": "1614216423602885:624528",
-                    "name": "Bonsai",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
                     "resId": "313",
                     "uid": "1614216933528558:767844",
                     "name": "Files\/File424.js",
@@ -1083,33 +1074,65 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "322",
-                    "uid": "1614717390811681:19007404",
-                    "name": "Files\/File445",
+                    "resId": "326",
+                    "uid": "1614727035695225:20079290",
+                    "name": "Files\/File461.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "323",
-                    "uid": "1614717814326566:19048813",
-                    "name": "Files\/File449",
+                    "resId": "327",
+                    "uid": "1614727565954003:20173681",
+                    "name": "Files\/File465.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "324",
-                    "uid": "1614718581245416:19119755",
-                    "name": "Files\/File453",
+                    "resId": "328",
+                    "uid": "1614731039302243:20603171",
+                    "name": "Files\/File473",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "325",
-                    "uid": "1614719064879053:19174884",
-                    "name": "Files\/File457",
+                    "resId": "329",
+                    "uid": "1614732303347616:20761570",
+                    "name": "Files\/File477",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "330",
+                    "uid": "1614732596998949:20790881",
+                    "name": "Files\/File481",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "331",
+                    "uid": "1614732810358808:20819218",
+                    "name": "Files\/File485",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "332",
+                    "uid": "1614733340425599:20888703",
+                    "name": "Files\/File489.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "333",
+                    "uid": "1614733484250035:20907001",
+                    "name": "Files\/File493.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1205,11 +1228,11 @@
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
-                                    "fixWidth": "false",
+                                    "fixWidth": "true",
                                     "fixHeight": "false",
                                     "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
                                     "attachTop": "true"
                                 }
                             }
@@ -1282,49 +1305,49 @@
                 "2": "1528843813151434:5126",
                 "3": "1573611753985137:51289",
                 "4": "1573611753986630:51323",
-                "5": "1573611753987926:51347",
-                "6": "1573612914147453:135902",
-                "7": "1573612914154946:135997",
-                "8": "1573612914173195:136209",
-                "9": "1573612969367933:176967",
-                "10": "1573612979328448:193152",
-                "11": "1573613351019456:353372",
-                "12": "1573613362054202:356521",
-                "13": "1573613382054388:367143",
-                "14": "1573613416457157:401654",
-                "15": "1573768036300511:55774",
-                "16": "1614204987669828:635088",
-                "17": "1614204987673027:635094",
-                "18": "1614205135962622:662786",
-                "19": "1614205135963788:662792",
-                "20": "1614206234926117:840702",
-                "21": "1614206234927214:840720",
-                "22": "1614206234927951:840722",
-                "23": "1614206234937998:840743",
-                "24": "1614206234943356:840760",
-                "25": "1614206234950283:840777",
-                "26": "1614206418978407:866636",
-                "27": "1614206419081205:866640",
-                "28": "1614206432737429:866839",
-                "29": "1614216301240692:588573",
-                "30": "1614216301241961:588575",
-                "31": "1614216301242649:588577",
-                "32": "1614216301247594:588598",
-                "33": "1614216748213875:679363",
-                "34": "1614216748271089:679506",
-                "35": "1614216879696106:733538",
-                "36": "1614217358398087:869034",
-                "37": "1614237910305921:46619",
-                "38": "1614238096884901:86016",
-                "39": "1614238628037977:234900",
-                "40": "1614238740586561:277503",
-                "41": "1614559289931672:1643103",
-                "42": "1614567140856081:2616458",
-                "43": "1614567525357373:2701035",
-                "44": "1614567614599407:2713712",
-                "45": "1614668420688358:12594473",
-                "46": "1614669049595235:12720332",
-                "47": "1614670846663583:13159053"
+                "5": "1573612914147453:135902",
+                "6": "1573612914154946:135997",
+                "7": "1573612914173195:136209",
+                "8": "1573612969367933:176967",
+                "9": "1573612979328448:193152",
+                "10": "1573613351019456:353372",
+                "11": "1573613362054202:356521",
+                "12": "1573613382054388:367143",
+                "13": "1573613416457157:401654",
+                "14": "1573768036300511:55774",
+                "15": "1614204987669828:635088",
+                "16": "1614204987673027:635094",
+                "17": "1614205135962622:662786",
+                "18": "1614205135963788:662792",
+                "19": "1614206418978407:866636",
+                "20": "1614206419081205:866640",
+                "21": "1614206432737429:866839",
+                "22": "1614216748213875:679363",
+                "23": "1614216748271089:679506",
+                "24": "1614216879696106:733538",
+                "25": "1614217358398087:869034",
+                "26": "1614237910305921:46619",
+                "27": "1614238096884901:86016",
+                "28": "1614238628037977:234900",
+                "29": "1614238740586561:277503",
+                "30": "1614559289931672:1643103",
+                "31": "1614567140856081:2616458",
+                "32": "1614567525357373:2701035",
+                "33": "1614567614599407:2713712",
+                "34": "1614668420688358:12594473",
+                "35": "1614669049595235:12720332",
+                "36": "1614670846663583:13159053",
+                "37": "1614730136725964:20481443",
+                "38": "1614730320511364:20505937",
+                "39": "1614730320525137:20505939",
+                "40": "1614730320527774:20505941",
+                "41": "1614730320539093:20505962",
+                "42": "1614730864314008:20580331",
+                "43": "1614730864316714:20580349",
+                "44": "1614730864317788:20580351",
+                "45": "1614730864328853:20580368",
+                "46": "1614730864367598:20580457",
+                "47": "1614730864401715:20580478"
             }
         },
         "LayerComponent": {
@@ -1996,22 +2019,6 @@
                     "v": "Files\/File403.pvr"
                 },
                 {
-                    "k": "419",
-                    "v": "Files\/File419.oprfb"
-                },
-                {
-                    "k": "420",
-                    "v": "Files\/File420.oprfb"
-                },
-                {
-                    "k": "421",
-                    "v": "Files\/File421.oprfb"
-                },
-                {
-                    "k": "422",
-                    "v": "Files\/File422.oprfb"
-                },
-                {
                     "k": "424",
                     "v": "Files\/File424.js"
                 },
@@ -2020,68 +2027,132 @@
                     "v": "Files\/File436.js"
                 },
                 {
-                    "k": "445",
-                    "v": "Files\/File445"
+                    "k": "461",
+                    "v": "Files\/File461.pvr"
                 },
                 {
-                    "k": "446",
-                    "v": "Files\/File446"
+                    "k": "462",
+                    "v": "Files\/File462.png"
                 },
                 {
-                    "k": "447",
-                    "v": "Files\/File447"
+                    "k": "465",
+                    "v": "Files\/File465.pvr"
                 },
                 {
-                    "k": "448",
-                    "v": "Files\/File448"
+                    "k": "466",
+                    "v": "Files\/File466.png"
                 },
                 {
-                    "k": "449",
-                    "v": "Files\/File449"
+                    "k": "469",
+                    "v": "Files\/File469.png"
                 },
                 {
-                    "k": "450",
-                    "v": "Files\/File450"
+                    "k": "470",
+                    "v": "Files\/File470.pvr"
                 },
                 {
-                    "k": "451",
-                    "v": "Files\/File451"
+                    "k": "471",
+                    "v": "Files\/File471.png"
                 },
                 {
-                    "k": "452",
-                    "v": "Files\/File452"
+                    "k": "472",
+                    "v": "Files\/File472.pvr"
                 },
                 {
-                    "k": "453",
-                    "v": "Files\/File453"
+                    "k": "473",
+                    "v": "Files\/File473"
                 },
                 {
-                    "k": "454",
-                    "v": "Files\/File454"
+                    "k": "474",
+                    "v": "Files\/File474"
                 },
                 {
-                    "k": "455",
-                    "v": "Files\/File455"
+                    "k": "475",
+                    "v": "Files\/File475"
                 },
                 {
-                    "k": "456",
-                    "v": "Files\/File456"
+                    "k": "476",
+                    "v": "Files\/File476"
                 },
                 {
-                    "k": "457",
-                    "v": "Files\/File457"
+                    "k": "477",
+                    "v": "Files\/File477"
                 },
                 {
-                    "k": "458",
-                    "v": "Files\/File458"
+                    "k": "478",
+                    "v": "Files\/File478"
                 },
                 {
-                    "k": "459",
-                    "v": "Files\/File459"
+                    "k": "479",
+                    "v": "Files\/File479"
                 },
                 {
-                    "k": "460",
-                    "v": "Files\/File460"
+                    "k": "480",
+                    "v": "Files\/File480"
+                },
+                {
+                    "k": "481",
+                    "v": "Files\/File481"
+                },
+                {
+                    "k": "482",
+                    "v": "Files\/File482"
+                },
+                {
+                    "k": "483",
+                    "v": "Files\/File483"
+                },
+                {
+                    "k": "484",
+                    "v": "Files\/File484"
+                },
+                {
+                    "k": "485",
+                    "v": "Files\/File485"
+                },
+                {
+                    "k": "486",
+                    "v": "Files\/File486"
+                },
+                {
+                    "k": "487",
+                    "v": "Files\/File487"
+                },
+                {
+                    "k": "488",
+                    "v": "Files\/File488"
+                },
+                {
+                    "k": "489",
+                    "v": "Files\/File489.pvr"
+                },
+                {
+                    "k": "490",
+                    "v": "Files\/File490.png"
+                },
+                {
+                    "k": "491",
+                    "v": "Files\/File491.png"
+                },
+                {
+                    "k": "492",
+                    "v": "Files\/File492.pvr"
+                },
+                {
+                    "k": "493",
+                    "v": "Files\/File493.pvr"
+                },
+                {
+                    "k": "494",
+                    "v": "Files\/File494.png"
+                },
+                {
+                    "k": "495",
+                    "v": "Files\/File495.png"
+                },
+                {
+                    "k": "496",
+                    "v": "Files\/File496.pvr"
                 }
             ]
         },
@@ -2371,14 +2442,6 @@
                         "v": "..\/AdditionalFiles\/Plants\/Bamboo\/Materials0\/blinn1.lsmat"
                     },
                     {
-                        "k": "134",
-                        "v": "Plants\/Bamboo_BIG.oprfb"
-                    },
-                    {
-                        "k": "135",
-                        "v": "Plants\/Bonsai_BIG.oprfb"
-                    },
-                    {
                         "k": "137",
                         "v": "Scripts\/UI\/UI_Manager.js"
                     },
@@ -2391,20 +2454,36 @@
                         "v": "Textures\/descriptions"
                     },
                     {
-                        "k": "148",
+                        "k": "152",
+                        "v": "Textures\/ui\/start_button.png"
+                    },
+                    {
+                        "k": "153",
+                        "v": "Textures\/ui\/finish_button.png"
+                    },
+                    {
+                        "k": "154",
                         "v": "Textures\/descriptions\/bonsai"
                     },
                     {
-                        "k": "149",
-                        "v": "Textures\/descriptions\/bamboo"
+                        "k": "155",
+                        "v": "Textures\/descriptions\/mushroom"
                     },
                     {
-                        "k": "150",
+                        "k": "156",
                         "v": "Textures\/descriptions\/flowers"
                     },
                     {
-                        "k": "151",
-                        "v": "Textures\/descriptions\/mushroom"
+                        "k": "157",
+                        "v": "Textures\/descriptions\/bamboo"
+                    },
+                    {
+                        "k": "158",
+                        "v": "Textures\/plants\/bamboo_trunk_preview.png"
+                    },
+                    {
+                        "k": "159",
+                        "v": "Textures\/ui\/close_button.png"
                     }
                 ],
                 "hashes": [
@@ -2690,11 +2769,11 @@
                     },
                     {
                         "k": "99",
-                        "v": "14c1abce668d4edb29913ac4b99159d9"
+                        "v": "8909cc567e8b109cd7eed9a0ffd4abb1"
                     },
                     {
                         "k": "100",
-                        "v": "dd0636dbb420208e004f3ce6cdc8d6eb"
+                        "v": "632b8dcdced6dc1e49b00fdaddb22768"
                     },
                     {
                         "k": "103",
@@ -2734,7 +2813,7 @@
                     },
                     {
                         "k": "115",
-                        "v": "b22d3fcae04940a1c4330d9f61e0405b"
+                        "v": "bce34736a617485b84e67818ed572af2"
                     },
                     {
                         "k": "117",
@@ -2774,7 +2853,7 @@
                     },
                     {
                         "k": "130",
-                        "v": "c9300824a6c84863508eeebb11ea6877"
+                        "v": "7d34d85452e5ddd4ec6df0b90540eddb"
                     },
                     {
                         "k": "131",
@@ -2802,7 +2881,7 @@
                     },
                     {
                         "k": "137",
-                        "v": "616bd3c43412e1a605246e6028b4867d"
+                        "v": "7da186f4d3971c0ac4413e36ad7cde77"
                     },
                     {
                         "k": "138",
@@ -2859,14 +2938,46 @@
                     {
                         "k": "151",
                         "v": "e631676ee4ac9ee5c12ed1c02c5dfde7"
+                    },
+                    {
+                        "k": "152",
+                        "v": "412fa910bb7f154f53b854ee2855b993"
+                    },
+                    {
+                        "k": "153",
+                        "v": "38cc56ab12fc7d0834ff89e2d2f87907"
+                    },
+                    {
+                        "k": "154",
+                        "v": "cd3a771196c5454fb95be37c60732faf"
+                    },
+                    {
+                        "k": "155",
+                        "v": "46d4d061054006f30470717dfc2c71d4"
+                    },
+                    {
+                        "k": "156",
+                        "v": "69d5b05477646c0b4d61cfb1d8a60154"
+                    },
+                    {
+                        "k": "157",
+                        "v": "6dd120d5ffa90eb7d5f16c42830b886e"
+                    },
+                    {
+                        "k": "158",
+                        "v": "6c00f29cb72ac4a14842489de0c19d69"
+                    },
+                    {
+                        "k": "159",
+                        "v": "81efe3f2806d42b721a8f1600d3be4fd"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-02T15:11:07",
+                        "lastModified": "2021-03-02T19:05:06",
                         "name": "Public",
-                        "hash": "0c46e54f2a890bd0d4a7fb4a2bde609d",
+                        "hash": "dfe84c87a0fdc31fd6a14fbd59064bf9",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -2899,9 +3010,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-02-28T17:15:32",
+                                "lastModified": "2021-03-02T18:47:39",
                                 "name": "Plants",
-                                "hash": "c2cc29008956c437f355361c947384f1",
+                                "hash": "fd92200642e8f43fb88e29ecf89cbe6a",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2912,23 +3023,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-02-24T19:25:31",
-                                        "name": "Bamboo_BIG.oprfb",
-                                        "hash": "34c37c161671eae20926ebcbaa7b49a3",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
                                         "lastModified": "2021-02-24T18:18:05",
                                         "name": "Bonsai.fbx",
                                         "hash": "518acd39f020e38da36f98a0be2326d3",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-02-24T19:27:11",
-                                        "name": "Bonsai_BIG.oprfb",
-                                        "hash": "d7bd34c6f2fb82c57dade4e8e2eae488",
                                         "children": ""
                                     },
                                     {
@@ -2956,9 +3053,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-02T14:20:27",
+                                "lastModified": "2021-03-02T18:19:19",
                                 "name": "Scripts",
-                                "hash": "8375bb57d35ba7f6f36a69e097106cd8",
+                                "hash": "3fe9c8697e8fde353457225b6d98f44e",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2969,9 +3066,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-02T14:15:44",
+                                        "lastModified": "2021-03-02T18:19:19",
                                         "name": "Spawner.js",
-                                        "hash": "b22d3fcae04940a1c4330d9f61e0405b",
+                                        "hash": "bce34736a617485b84e67818ed572af2",
                                         "children": ""
                                     },
                                     {
@@ -3076,9 +3173,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-02T15:21:45",
+                                        "lastModified": "2021-03-02T18:40:58",
                                         "name": "UI",
-                                        "hash": "7945a3a5e6a8fde47cb347140c26591e",
+                                        "hash": "de0437420e243611844ec54112b2a498",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3096,23 +3193,23 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-02-24T22:38:16",
+                                                "lastModified": "2021-03-02T18:04:58",
                                                 "name": "Left.js",
-                                                "hash": "14c1abce668d4edb29913ac4b99159d9",
+                                                "hash": "8909cc567e8b109cd7eed9a0ffd4abb1",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-02-24T22:38:03",
+                                                "lastModified": "2021-03-02T18:04:48",
                                                 "name": "Right.js",
-                                                "hash": "dd0636dbb420208e004f3ce6cdc8d6eb",
+                                                "hash": "632b8dcdced6dc1e49b00fdaddb22768",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-03-02T15:21:45",
+                                                "lastModified": "2021-03-02T18:40:58",
                                                 "name": "UI_Manager.js",
-                                                "hash": "616bd3c43412e1a605246e6028b4867d",
+                                                "hash": "7da186f4d3971c0ac4413e36ad7cde77",
                                                 "children": ""
                                             }
                                         ]
@@ -3261,7 +3358,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-03-02T15:01:46",
                                 "name": "Textures",
-                                "hash": "f16c8b4716012917b3105f71fc1b3c32",
+                                "hash": "1db7622061137b0891dc188f34a34906",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3272,72 +3369,72 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-02T15:10:28",
+                                        "lastModified": "2021-03-02T18:55:59",
                                         "name": "descriptions",
-                                        "hash": "0c0a224835e6804b82c901584d2883cf",
+                                        "hash": "39daa34dc457262bcbfe5a7c98b7c92b",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-03-02T14:43:34",
+                                                "lastModified": "2021-03-02T18:53:30",
                                                 "name": "bamboo",
-                                                "hash": "2b86b03ee9f485bf737189937c80fb25",
+                                                "hash": "cecce52e99a3affbe9243e2b621ecbf2",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:43:34",
+                                                        "lastModified": "2021-03-02T18:53:30",
                                                         "name": "animation.t3d",
-                                                        "hash": "c71daa8974a1167fd2a0f61c567e59ca",
+                                                        "hash": "d44473f799a6cb773f018b3eb7b8a7e8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:43:34",
+                                                        "lastModified": "2021-03-02T18:53:30",
                                                         "name": "atlas_0.png",
-                                                        "hash": "ec63bc5bdba899b1f0ac3587f06e3225",
+                                                        "hash": "17cc75b4e58952ece0a8981725c6599e",
                                                         "children": ""
                                                     }
                                                 ]
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-03-02T14:36:30",
+                                                "lastModified": "2021-03-02T18:23:59",
                                                 "name": "bonsai",
-                                                "hash": "03faa414ace45d53ad697ac53ebedfb6",
+                                                "hash": "fa11c35663d227bd557017ac626d6880",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:36:30",
+                                                        "lastModified": "2021-03-02T18:23:52",
                                                         "name": "animation.t3d",
-                                                        "hash": "c71daa8974a1167fd2a0f61c567e59ca",
+                                                        "hash": "d44473f799a6cb773f018b3eb7b8a7e8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:36:30",
+                                                        "lastModified": "2021-03-02T18:23:52",
                                                         "name": "atlas_0.png",
-                                                        "hash": "91bc868c635d5da766543e526e3ae549",
+                                                        "hash": "8678d2b57f85649021013be420cc511a",
                                                         "children": ""
                                                     }
                                                 ]
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-03-02T14:56:21",
+                                                "lastModified": "2021-03-02T18:49:57",
                                                 "name": "flowers",
-                                                "hash": "d5d1190727f3725072b96075197eb6bc",
+                                                "hash": "172909d452522f48bcdd9db5af771e4a",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:56:21",
+                                                        "lastModified": "2021-03-02T18:49:56",
                                                         "name": "animation.t3d",
-                                                        "hash": "c71daa8974a1167fd2a0f61c567e59ca",
+                                                        "hash": "d44473f799a6cb773f018b3eb7b8a7e8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T14:56:21",
+                                                        "lastModified": "2021-03-02T18:49:56",
                                                         "name": "atlas_0.png",
-                                                        "hash": "528f73c08e101fd85e685994e9c04e34",
+                                                        "hash": "03dba98209e38150efbcb61b294b26a3",
                                                         "children": ""
                                                     }
                                                 ]
@@ -3351,22 +3448,22 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2021-03-02T15:04:25",
+                                                "lastModified": "2021-03-02T18:45:05",
                                                 "name": "mushroom",
-                                                "hash": "d7cb2fe1f301f46ba2c29f3192faa399",
+                                                "hash": "dfb8a002f2f6da2c27f6a48596f0f66c",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T15:04:24",
+                                                        "lastModified": "2021-03-02T18:45:03",
                                                         "name": "animation.t3d",
-                                                        "hash": "c71daa8974a1167fd2a0f61c567e59ca",
+                                                        "hash": "d44473f799a6cb773f018b3eb7b8a7e8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-03-02T15:04:24",
+                                                        "lastModified": "2021-03-02T18:45:03",
                                                         "name": "atlas_0.png",
-                                                        "hash": "207b20a1a04a14c014578b0d707c25c1",
+                                                        "hash": "8954e8501a3cc93275784d47888a3786",
                                                         "children": ""
                                                     }
                                                 ]
@@ -3410,9 +3507,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-02-26T01:36:15",
+                                        "lastModified": "2021-03-02T19:02:18",
                                         "name": "plants",
-                                        "hash": "786b02bdafd7096bea221ff7ce4e9046",
+                                        "hash": "28d163dd2285e10ed8e348d541b437dd",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3426,6 +3523,13 @@
                                                 "lastModified": "2021-02-24T18:18:05",
                                                 "name": "bamboo_trunk.png",
                                                 "hash": "2d632a15c344faee99fe7ca35b2ec499",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-02T19:02:18",
+                                                "name": "bamboo_trunk_preview.png",
+                                                "hash": "6c00f29cb72ac4a14842489de0c19d69",
                                                 "children": ""
                                             },
                                             {
@@ -3481,9 +3585,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-02-26T01:36:15",
+                                        "lastModified": "2021-03-02T19:05:23",
                                         "name": "ui",
-                                        "hash": "7d2896f3b3b73a29fd4d4fbda091f9e5",
+                                        "hash": "43ef52088033fb28052ecd83d9867222",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3501,9 +3605,30 @@
                                             },
                                             {
                                                 "isFolder": "false",
+                                                "lastModified": "2021-03-02T19:04:08",
+                                                "name": "close_button.png",
+                                                "hash": "81efe3f2806d42b721a8f1600d3be4fd",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-02T17:29:37",
+                                                "name": "finish_button.png",
+                                                "hash": "38cc56ab12fc7d0834ff89e2d2f87907",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
                                                 "lastModified": "2021-02-24T18:18:10",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-02T17:31:32",
+                                                "name": "start_button.png",
+                                                "hash": "412fa910bb7f154f53b854ee2855b993",
                                                 "children": ""
                                             }
                                         ]
@@ -3521,10 +3646,10 @@
                     }
                 },
                 "complexResources": [
-                    "148",
-                    "149",
-                    "150",
-                    "151"
+                    "154",
+                    "155",
+                    "156",
+                    "157"
                 ]
             },
             "tree": {
@@ -4092,32 +4217,6 @@
                                         "additional": ""
                                     }
                                 ]
-                            },
-                            {
-                                "name": "Bamboo_BIG",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "310",
-                                "dependency": "0",
-                                "uid": "1614216318825339:596410",
-                                "fileId": "419",
-                                "originalId": "420",
-                                "publicId": "134",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Bonsai_BIG",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "311",
-                                "dependency": "0",
-                                "uid": "1614216423602885:624528",
-                                "fileId": "421",
-                                "originalId": "422",
-                                "publicId": "135",
-                                "source": "",
-                                "additional": ""
                             }
                         ]
                     },
@@ -4263,6 +4362,45 @@
                                         "publicId": "82",
                                         "source": "D:\/Downloads\/UICheck.png",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "start_button",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "326",
+                                        "dependency": "0",
+                                        "uid": "1614727035695225:20079290",
+                                        "fileId": "461",
+                                        "originalId": "462",
+                                        "publicId": "152",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/start.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "finish_button",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "327",
+                                        "dependency": "0",
+                                        "uid": "1614727565954003:20173681",
+                                        "fileId": "465",
+                                        "originalId": "466",
+                                        "publicId": "153",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/finish.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "close_button",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "333",
+                                        "dependency": "0",
+                                        "uid": "1614733484250035:20907001",
+                                        "fileId": "493",
+                                        "originalId": "494",
+                                        "publicId": "159",
+                                        "source": "D:\/Downloads\/CloseButton.png",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -4296,52 +4434,52 @@
                                         "name": "bonsai",
                                         "type": "1",
                                         "subtype": "5",
-                                        "resourceId": "322",
+                                        "resourceId": "328",
                                         "dependency": "0",
-                                        "uid": "1614717390811681:19007404",
-                                        "fileId": "445",
-                                        "originalId": "446",
-                                        "publicId": "148",
-                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-EYoBCi\/animation.t3d",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bamboo",
-                                        "type": "1",
-                                        "subtype": "5",
-                                        "resourceId": "323",
-                                        "dependency": "0",
-                                        "uid": "1614717814326566:19048813",
-                                        "fileId": "449",
-                                        "originalId": "450",
-                                        "publicId": "149",
-                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-qKFPYa\/animation.t3d",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "flowers",
-                                        "type": "1",
-                                        "subtype": "5",
-                                        "resourceId": "324",
-                                        "dependency": "0",
-                                        "uid": "1614718581245416:19119755",
-                                        "fileId": "453",
-                                        "originalId": "454",
-                                        "publicId": "150",
-                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-jIANDZ\/animation.t3d",
+                                        "uid": "1614731039302243:20603171",
+                                        "fileId": "473",
+                                        "originalId": "474",
+                                        "publicId": "154",
+                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-YBBtry\/animation.t3d",
                                         "additional": ""
                                     },
                                     {
                                         "name": "mushroom",
                                         "type": "1",
                                         "subtype": "5",
-                                        "resourceId": "325",
+                                        "resourceId": "329",
                                         "dependency": "0",
-                                        "uid": "1614719064879053:19174884",
-                                        "fileId": "457",
-                                        "originalId": "458",
-                                        "publicId": "151",
-                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-BvzQQE\/animation.t3d",
+                                        "uid": "1614732303347616:20761570",
+                                        "fileId": "477",
+                                        "originalId": "478",
+                                        "publicId": "155",
+                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-rCRttU\/animation.t3d",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "flowers",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "330",
+                                        "dependency": "0",
+                                        "uid": "1614732596998949:20790881",
+                                        "fileId": "481",
+                                        "originalId": "482",
+                                        "publicId": "156",
+                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-zGBsNB\/animation.t3d",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "bamboo",
+                                        "type": "1",
+                                        "subtype": "5",
+                                        "resourceId": "331",
+                                        "dependency": "0",
+                                        "uid": "1614732810358808:20819218",
+                                        "fileId": "485",
+                                        "originalId": "486",
+                                        "publicId": "157",
+                                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-qdHxWX\/animation.t3d",
                                         "additional": ""
                                     }
                                 ]
@@ -4461,6 +4599,19 @@
                                         "originalId": "400",
                                         "publicId": "79",
                                         "source": "D:\/Downloads\/drive-download-20210224T224953Z-001\/Trunk.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "bamboo_trunk_preview",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "332",
+                                        "dependency": "0",
+                                        "uid": "1614733340425599:20888703",
+                                        "fileId": "489",
+                                        "originalId": "490",
+                                        "publicId": "158",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/bamboo_trunk_preview.png",
                                         "additional": ""
                                     }
                                 ]
@@ -4946,11 +5097,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1614668420688358:12594473"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
@@ -5027,83 +5174,83 @@
                         }
                     },
                     {
-                        "k": "1614206234926117:840702",
+                        "k": "1614730320511364:20505937",
                         "v": {
-                            "prefab": "1614216423602885:624528",
+                            "prefab": "1614206864248381:977628",
                             "isActive": "true",
                             "mapping": [
                                 {
-                                    "k": "1614206234926117:840702",
-                                    "v": "1614206234926117:840702"
+                                    "k": "1614206864235482:977592",
+                                    "v": "1614730320511364:20505937"
                                 },
                                 {
-                                    "k": "1614206234927214:840720",
-                                    "v": "1614206234927214:840720"
+                                    "k": "1614206864237191:977594",
+                                    "v": "1614730320525137:20505939"
                                 },
                                 {
-                                    "k": "1614206234927951:840722",
-                                    "v": "1614206234927951:840722"
+                                    "k": "1614206864237730:977596",
+                                    "v": "1614730320527774:20505941"
                                 },
                                 {
-                                    "k": "1614206234928893:840724",
-                                    "v": "1614206234928893:840724"
+                                    "k": "1614206864238132:977598",
+                                    "v": "1614730320529500:20505943"
                                 },
                                 {
-                                    "k": "1614206234937998:840743",
-                                    "v": "1614206234937998:840743"
+                                    "k": "1614206864241794:977612",
+                                    "v": "1614730320539093:20505962"
                                 },
                                 {
-                                    "k": "1614206234939075:840745",
-                                    "v": "1614206234939075:840745"
-                                },
-                                {
-                                    "k": "1614206234943356:840760",
-                                    "v": "1614206234943356:840760"
-                                },
-                                {
-                                    "k": "1614206234944426:840762",
-                                    "v": "1614206234944426:840762"
-                                },
-                                {
-                                    "k": "1614206234950283:840777",
-                                    "v": "1614206234950283:840777"
-                                },
-                                {
-                                    "k": "1614206234951250:840779",
-                                    "v": "1614206234951250:840779"
+                                    "k": "1614206864243439:977616",
+                                    "v": "1614730320558961:20506036"
                                 }
                             ]
                         }
                     },
                     {
-                        "k": "1614216301240692:588573",
+                        "k": "1614730864314008:20580331",
                         "v": {
-                            "prefab": "1614216318825339:596410",
+                            "prefab": "1614206234189597:840542",
                             "isActive": "true",
                             "mapping": [
                                 {
-                                    "k": "1614216301240692:588573",
-                                    "v": "1614216301240692:588573"
+                                    "k": "1614206234165914:840478",
+                                    "v": "1614730864314008:20580331"
                                 },
                                 {
-                                    "k": "1614216301241961:588575",
-                                    "v": "1614216301241961:588575"
+                                    "k": "1614206234167942:840480",
+                                    "v": "1614730864316714:20580349"
                                 },
                                 {
-                                    "k": "1614216301242649:588577",
-                                    "v": "1614216301242649:588577"
+                                    "k": "1614206234168681:840482",
+                                    "v": "1614730864317788:20580351"
                                 },
                                 {
-                                    "k": "1614216301243264:588579",
-                                    "v": "1614216301243264:588579"
+                                    "k": "1614206234169223:840484",
+                                    "v": "1614730864318762:20580353"
                                 },
                                 {
-                                    "k": "1614216301247594:588598",
-                                    "v": "1614216301247594:588598"
+                                    "k": "1614206234171525:840496",
+                                    "v": "1614730864328853:20580368"
                                 },
                                 {
-                                    "k": "1614216301248370:588600",
-                                    "v": "1614216301248370:588600"
+                                    "k": "1614206234172715:840498",
+                                    "v": "1614730864354884:20580442"
+                                },
+                                {
+                                    "k": "1614206234175215:840514",
+                                    "v": "1614730864367598:20580457"
+                                },
+                                {
+                                    "k": "1614206234176549:840516",
+                                    "v": "1614730864369055:20580459"
+                                },
+                                {
+                                    "k": "1614206234182676:840528",
+                                    "v": "1614730864401715:20580478"
+                                },
+                                {
+                                    "k": "1614206234183932:840530",
+                                    "v": "1614730864404089:20580480"
                                 }
                             ]
                         }
@@ -5565,67 +5712,67 @@
                     }
                 },
                 {
-                    "k": "1614717390811681:19007404",
+                    "k": "1614727035695225:20079290",
                     "v": {
                         "infos": {
-                            "originalSize": "323066",
-                            "compressedSize": "176762",
-                            "originalRAM": "14920320",
-                            "compressedRAM": "1867776",
-                            "extension": "t3d",
+                            "originalSize": "9024",
+                            "compressedSize": "6193",
+                            "originalRAM": "665632",
+                            "compressedRAM": "83328",
+                            "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
                                 "level": "2",
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "447",
+                        "uncompressed_file": "471",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "737b0dce6f7a5b58d8791f8504a34ca8",
+                                    "uncompressed_hash": "412fa910bb7f154f53b854ee2855b993",
                                     "settings_hash": "2049"
                                 },
-                                "v": "448"
+                                "v": "472"
                             }
                         ]
                     }
                 },
                 {
-                    "k": "1614717814326566:19048813",
+                    "k": "1614727565954003:20173681",
                     "v": {
                         "infos": {
-                            "originalSize": "377819",
-                            "compressedSize": "550884",
-                            "originalRAM": "14969400",
-                            "compressedRAM": "1875968",
-                            "extension": "t3d",
+                            "originalSize": "7976",
+                            "compressedSize": "5830",
+                            "originalRAM": "664640",
+                            "compressedRAM": "83328",
+                            "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
                                 "level": "2",
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "451",
+                        "uncompressed_file": "469",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "f363f63a647ec471aeb9ec2a6864da27",
+                                    "uncompressed_hash": "38cc56ab12fc7d0834ff89e2d2f87907",
                                     "settings_hash": "2049"
                                 },
-                                "v": "452"
+                                "v": "470"
                             }
                         ]
                     }
                 },
                 {
-                    "k": "1614718581245416:19119755",
+                    "k": "1614731039302243:20603171",
                     "v": {
                         "infos": {
-                            "originalSize": "332400",
-                            "compressedSize": "492899",
-                            "originalRAM": "14969400",
-                            "compressedRAM": "1875968",
+                            "originalSize": "135492",
+                            "compressedSize": "206880",
+                            "originalRAM": "13227060",
+                            "compressedRAM": "1658880",
                             "extension": "t3d",
                             "settings": {
                                 "isCompressed": "true",
@@ -5633,26 +5780,26 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "455",
+                        "uncompressed_file": "475",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "10e8d57b2dd6734fb892e8214a7d45fe",
+                                    "uncompressed_hash": "cd3a771196c5454fb95be37c60732faf",
                                     "settings_hash": "2049"
                                 },
-                                "v": "456"
+                                "v": "476"
                             }
                         ]
                     }
                 },
                 {
-                    "k": "1614719064879053:19174884",
+                    "k": "1614732303347616:20761570",
                     "v": {
                         "infos": {
-                            "originalSize": "356560",
-                            "compressedSize": "524188",
-                            "originalRAM": "14969400",
-                            "compressedRAM": "1875968",
+                            "originalSize": "187420",
+                            "compressedSize": "251130",
+                            "originalRAM": "12809880",
+                            "compressedRAM": "1605632",
                             "extension": "t3d",
                             "settings": {
                                 "isCompressed": "true",
@@ -5660,14 +5807,122 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "459",
+                        "uncompressed_file": "479",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "e631676ee4ac9ee5c12ed1c02c5dfde7",
+                                    "uncompressed_hash": "46d4d061054006f30470717dfc2c71d4",
                                     "settings_hash": "2049"
                                 },
-                                "v": "460"
+                                "v": "480"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614732596998949:20790881",
+                    "v": {
+                        "infos": {
+                            "originalSize": "179511",
+                            "compressedSize": "242719",
+                            "originalRAM": "12809880",
+                            "compressedRAM": "1605632",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "483",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "69d5b05477646c0b4d61cfb1d8a60154",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "484"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614732810358808:20819218",
+                    "v": {
+                        "infos": {
+                            "originalSize": "195716",
+                            "compressedSize": "257841",
+                            "originalRAM": "12809880",
+                            "compressedRAM": "1605632",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "487",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "6dd120d5ffa90eb7d5f16c42830b886e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "488"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614733340425599:20888703",
+                    "v": {
+                        "infos": {
+                            "originalSize": "231935",
+                            "compressedSize": "59803",
+                            "originalRAM": "524288",
+                            "compressedRAM": "65536",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "491",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "6c00f29cb72ac4a14842489de0c19d69",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "492"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614733484250035:20907001",
+                    "v": {
+                        "infos": {
+                            "originalSize": "4402",
+                            "compressedSize": "3246",
+                            "originalRAM": "547712",
+                            "compressedRAM": "68992",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "495",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "81efe3f2806d42b721a8f1600d3be4fd",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "496"
                             }
                         ]
                     }

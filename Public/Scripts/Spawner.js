@@ -12,11 +12,10 @@ var currentTreeIndex = 0;
 var currentTreeGrowing;
 var currentTransform;
 var currentScale = new vec3(0,0,0);
+var oldScale;
 var tweenValue;
 
-var event = script.createEvent("TurnOnEvent");
-event.bind(function (eventData)
-{
+script.createEvent("TurnOnEvent").bind(function (eventData) {
     // Allows for fullscreen touch input
     global.touchSystem.touchBlocking = true;
     
@@ -53,23 +52,15 @@ event.bind(function (eventData)
     if (global.tweening)
     {
         tweenValue = global.tweenManager.getGenericTweenValue(script.tween, "grow");
-        currentScale = new vec3(tweenValue, tweenValue, tweenValue);
+        currentScale = oldScale.mult(new vec3(tweenValue, tweenValue, tweenValue));
         currentTransform.setLocalScale(currentScale);
     }
 });
 
-function growSelectedTree()
-{
-    if (!global.tweening)
-    {
+function growSelectedTree() {
+    if (!global.tweening) {
         global.tweening = true;
-        script.objectPreview[currentTreeIndex].enabled = false;
-        
-        // Instantiate current object selected, set it under the WorldObjectController
-        //currentTreeGrowing = script.objectPrefab[currentTreeIndex].instantiate(script.base);
-        // Scale new object down to 0, then start Tween Value with a callback
-        //currentTransform = currentTreeGrowing.getTransform();
-        //currentTransform.setLocalScale(currentScale);    
+        script.objectPreview[currentTreeIndex].enabled = false;  
         
         var editSceneTransform = script.base.getTransform();
         var editSceneTransformations = {
@@ -77,23 +68,13 @@ function growSelectedTree()
             "rotation": editSceneTransform.getWorldRotation(),
             "scale": editSceneTransform.getWorldScale()
         };
-        
-//        var newObj = global.scene.createSceneObject("Blah");
-//        currentTreeGrowing.setParent(newObj);
-//        newObj.copySceneObject(script.objectPreview[currentTreeIndex].getChild(1));
-//        var newscript = newObj.copyComponent(script.objectPreview[currentTreeIndex].getComponent('Component.ScriptComponent'));
-//        print(newscript.api.open);
-//        newObj.setParent(script.scene);
-        
+      
         var newObj = script.scene.copyWholeHierarchy(script.objectPreview[currentTreeIndex]);
-        
-        //var newObj = script.scene.copySceneObject(script.objectPreview[currentTreeIndex]);
-        
-        //currentTreeGrowing.setParent(newObj);
-        //newObj.copySceneObject(script.objectPreview[currentTreeIndex].getChild(1));
         newObj.enabled = true;
         
         currentTransform = newObj.getChild(0).getTransform();
+        oldScale = currentTransform.getWorldScale();
+        print(oldScale);
         currentTransform.setLocalScale(currentScale);        
         
         print("scene: " + script.scene.getChildrenCount());
@@ -104,31 +85,16 @@ function growSelectedTree()
         newObjTransform.setWorldScale(editSceneTransformations.scale);          
         
         global.tweenManager.startTween(script.tween, "grow", setFalse);
-        
     }
 }
 
-function setFalse()
-{
+function setFalse() {
     global.tweening = false;
     // Once object is finished growing, move it to the scene and re enable preview object
     //setParentInPlace(currentTreeGrowing, script.scene);
     var baseTransform = script.base.getTransform();
     baseTransform.setWorldPosition(new vec3(0, 0, 0));
     script.objectPreview[currentTreeIndex].enabled = true;
-}
-
-// Place an object under a new parent while preserving world position, rotation, and scale
-function setParentInPlace(obj, parent) 
-{
-    var tr = obj.getTransform();
-    var pos = tr.getWorldPosition();
-    var rot = tr.getWorldRotation();
-    var scale = tr.getWorldScale();
-    obj.setParent(parent);
-    tr.setWorldPosition(pos);
-    tr.setWorldRotation(rot);
-    tr.setWorldScale(scale);
 }
 
 // Left and Right Button Logic
