@@ -1,5 +1,4 @@
 // -----JS CODE-----
-// @input SceneObject[] objectPrefab
 // @input SceneObject[] objectPreview
 // @input Component.Camera mainCamera
 // @input bool advanced = false;
