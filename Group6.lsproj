@@ -3,7 +3,7 @@
     "document_id": "D0uW6_yvYOjccc8SqUTP",
     "original_document_id": "xE6MOwO3Dj9iAS0C4EpP",
     "version": "27",
-    "lastChanged": "1614733624020",
+    "lastChanged": "1614834101248",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -31,15 +31,56 @@
             "collapsedList": [
                 [
                     [
-                        "Materials"
-                    ],
-                    [
                         "Materials",
                         "Hologram"
                     ],
                     [
-                        "Plants",
-                        "Bamboo"
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bamboo_leaves_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bamboo_trunk_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bonsai_branches_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bonsai_leaves_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bonsai_roots_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "bonsai_trunk_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "flowers_preview"
+                    ],
+                    [
+                        "Materials",
+                        "plants",
+                        "previews",
+                        "mushroom_preview"
                     ],
                     [
                         "Plants",
@@ -50,11 +91,6 @@
                         "Plants",
                         "Bamboo",
                         "BambooModel"
-                    ],
-                    [
-                        "Plants",
-                        "Bamboo",
-                        "Materials0"
                     ],
                     [
                         "Plants",
@@ -84,10 +120,6 @@
                         "Bamboo",
                         "Meshes",
                         "Trunk"
-                    ],
-                    [
-                        "Plants",
-                        "Bonsai"
                     ],
                     [
                         "Plants",
@@ -130,10 +162,6 @@
                     ],
                     [
                         "Plants",
-                        "Flowers"
-                    ],
-                    [
-                        "Plants",
                         "Flowers",
                         "Animations"
                     ],
@@ -155,17 +183,8 @@
                     ],
                     [
                         "Plants",
-                        "Mushroom"
-                    ],
-                    [
-                        "Plants",
                         "Mushroom",
                         "Animations"
-                    ],
-                    [
-                        "Plants",
-                        "Mushroom",
-                        "Materials00"
                     ],
                     [
                         "Plants",
@@ -182,6 +201,9 @@
                         "Plants",
                         "Mushroom",
                         "Mushroom"
+                    ],
+                    [
+                        "Script"
                     ],
                     [
                         "Scripts",
@@ -274,10 +296,6 @@
                     ],
                     [
                         "Scripts",
-                        "WorldObjectController"
-                    ],
-                    [
-                        "Scripts",
                         "WorldObjectController",
                         "Materials"
                     ],
@@ -315,11 +333,6 @@
                         "WorldObjectController",
                         "Meshes",
                         "touch_collision_cube"
-                    ],
-                    [
-                        "Scripts",
-                        "WorldObjectController",
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -364,6 +377,10 @@
                     ],
                     [
                         "Textures",
+                        "descriptions"
+                    ],
+                    [
+                        "Textures",
                         "descriptions",
                         "bamboo"
                     ],
@@ -392,52 +409,108 @@
                     ],
                     [
                         "Textures",
-                        "plants"
-                    ],
-                    [
-                        "Textures",
                         "plants",
+                        "prefabs",
                         "bamboo_leaves"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "bamboo_trunk"
                     ],
                     [
                         "Textures",
                         "plants",
-                        "bamboo_trunk_preview"
-                    ],
-                    [
-                        "Textures",
-                        "plants",
+                        "prefabs",
                         "bonsai_branches"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "bonsai_leaves"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "bonsai_roots"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "bonsai_trunk"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "flowers"
                     ],
                     [
                         "Textures",
                         "plants",
+                        "prefabs",
                         "mushroom"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bamboo_leaves_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bamboo_trunk_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bonsai_branches_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bonsai_leaves_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bonsai_roots_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "bonsai_trunk_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "flowers_preview"
+                    ],
+                    [
+                        "Textures",
+                        "plants",
+                        "previews",
+                        "mushroom_preview"
+                    ],
+                    [
+                        "Textures",
+                        "ui"
                     ],
                     [
                         "Textures",
@@ -477,6 +550,7 @@
                     "1517446348227994:84813",
                     "1573611770955962:57531",
                     "1573611793439901:62252",
+                    "1573612914147453:135902",
                     "1573613067303226:285241",
                     "1573613069362298:285818",
                     "1573613074350480:293881",
@@ -489,7 +563,27 @@
                     "1614206234926117:840702",
                     "1614206234927214:840720",
                     "1614237910305921:46619",
-                    "1614238096884901:86016"
+                    "1614238096884901:86016",
+                    "1614238628037977:234900",
+                    "1614238740586561:277503",
+                    "1614730320511364:20505937",
+                    "1614730864314008:20580331",
+                    "1614730864316714:20580349",
+                    "1614825317668981:30496713",
+                    "1614827094549030:58058",
+                    "1614827094557908:58060",
+                    "1614827676916500:205968",
+                    "1614827676918172:205986",
+                    "1614828197884827:321367",
+                    "1614828338285565:352830",
+                    "1614831998255535:328199",
+                    "1614832298881999:398979",
+                    "1614832335672582:407442",
+                    "1614832370518213:420233",
+                    "1614832582274297:488211",
+                    "1614832619268216:503370",
+                    "1614832696817300:521746",
+                    "1614832730283317:540194"
                 ]
             ]
         },
@@ -866,22 +960,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "280",
-                    "uid": "1614205362072900:704331",
-                    "name": "Files\/File342.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "281",
-                    "uid": "1614205506909376:729575",
-                    "name": "Files\/File346.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "282",
                     "uid": "1614206233310507:840262",
                     "name": "Files\/File350.mesh",
@@ -954,38 +1032,6 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "291",
-                    "uid": "1614206294254886:854653",
-                    "name": "Files\/File369.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "292",
-                    "uid": "1614206294662867:854703",
-                    "name": "Files\/File372.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "293",
-                    "uid": "1614206295716815:856494",
-                    "name": "Files\/File375.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "294",
-                    "uid": "1614206316784873:858294",
-                    "name": "Files\/File378.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "295",
                     "uid": "1614206863694811:977474",
                     "name": "Files\/File385.mesh",
@@ -1024,22 +1070,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
-                },
-                {
-                    "resId": "300",
-                    "uid": "1614207074402212:1030812",
-                    "name": "Files\/File396.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "301",
-                    "uid": "1614207074770157:1030859",
-                    "name": "Files\/File399.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
                 },
                 {
                     "resId": "303",
@@ -1133,6 +1163,198 @@
                     "resId": "333",
                     "uid": "1614733484250035:20907001",
                     "name": "Files\/File493.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "344",
+                    "uid": "1614824734781179:30382139",
+                    "name": "Files\/File518",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "345",
+                    "uid": "1614824734961409:30382171",
+                    "name": "Files\/File520",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "346",
+                    "uid": "1614824735198827:30382215",
+                    "name": "Files\/File522",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "347",
+                    "uid": "1614824735438616:30382255",
+                    "name": "Files\/File524",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "351",
+                    "uid": "1614824736156856:30382473",
+                    "name": "Files\/File532",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "352",
+                    "uid": "1614824736418314:30382513",
+                    "name": "Files\/File534",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "354",
+                    "uid": "1614825652191882:30535815",
+                    "name": "Files\/File541.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "362",
+                    "uid": "1614826834910561:12007",
+                    "name": "Files\/File570.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "364",
+                    "uid": "1614828143467587:304066",
+                    "name": "Files\/File583",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "365",
+                    "uid": "1614828348306232:360474",
+                    "name": "Files\/File585",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "366",
+                    "uid": "1614828794955603:434164",
+                    "name": "Files\/File587.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "367",
+                    "uid": "1614828948932302:469758",
+                    "name": "Files\/File589.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "368",
+                    "uid": "1614829056038261:493104",
+                    "name": "Files\/File591.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "369",
+                    "uid": "1614829494236795:12626",
+                    "name": "Files\/File593.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "370",
+                    "uid": "1614829494286725:12633",
+                    "name": "Files\/File595.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "371",
+                    "uid": "1614829494323075:12640",
+                    "name": "Files\/File597.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "372",
+                    "uid": "1614829494370931:12647",
+                    "name": "Files\/File599.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "373",
+                    "uid": "1614829494432195:12654",
+                    "name": "Files\/File601.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "374",
+                    "uid": "1614830023783118:12610",
+                    "name": "Files\/File603.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "375",
+                    "uid": "1614830023972175:12617",
+                    "name": "Files\/File606.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "376",
+                    "uid": "1614830024243179:12624",
+                    "name": "Files\/File609.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "377",
+                    "uid": "1614830027936580:12631",
+                    "name": "Files\/File612.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "378",
+                    "uid": "1614830038562661:12638",
+                    "name": "Files\/File615.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "379",
+                    "uid": "1614831583954133:256919",
+                    "name": "Files\/File636.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1347,7 +1569,43 @@
                 "44": "1614730864317788:20580351",
                 "45": "1614730864328853:20580368",
                 "46": "1614730864367598:20580457",
-                "47": "1614730864401715:20580478"
+                "47": "1614730864401715:20580478",
+                "48": "1614824710155182:30377112",
+                "49": "1614827094549030:58058",
+                "50": "1614827094557908:58060",
+                "51": "1614827094558653:58062",
+                "52": "1614827094782569:58144",
+                "53": "1614827676916500:205968",
+                "54": "1614827676918172:205986",
+                "55": "1614827676919132:205988",
+                "56": "1614827676931072:206005",
+                "57": "1614827676938514:206026",
+                "58": "1614827676945464:206043",
+                "59": "1614828197884827:321367",
+                "60": "1614828197886933:321373",
+                "61": "1614828338285565:352830",
+                "62": "1614828338287164:352836",
+                "63": "1614831958229817:319639",
+                "64": "1614831998255535:328199",
+                "65": "1614832298881999:398979",
+                "66": "1614832298889336:398981",
+                "67": "1614832298894367:398997",
+                "68": "1614832298900566:399013",
+                "69": "1614832298909283:399027",
+                "70": "1614832335672582:407442",
+                "71": "1614832355405482:414053",
+                "72": "1614832370518213:420233",
+                "73": "1614832370522127:420235",
+                "74": "1614832370528649:420249",
+                "75": "1614832382430399:426099",
+                "76": "1614832582274297:488211",
+                "77": "1614832613253785:498074",
+                "78": "1614832619268216:503370",
+                "79": "1614832642545691:508083",
+                "80": "1614832696817300:521746",
+                "81": "1614832722210747:534615",
+                "82": "1614832730283317:540194",
+                "83": "1614832749427024:544513"
             }
         },
         "LayerComponent": {
@@ -1771,38 +2029,6 @@
                     "v": "Files\/File341.png"
                 },
                 {
-                    "k": "342",
-                    "v": "Files\/File342.pvr"
-                },
-                {
-                    "k": "343",
-                    "v": "Files\/File343.png"
-                },
-                {
-                    "k": "344",
-                    "v": "Files\/File344.png"
-                },
-                {
-                    "k": "345",
-                    "v": "Files\/File345.pvr"
-                },
-                {
-                    "k": "346",
-                    "v": "Files\/File346.pvr"
-                },
-                {
-                    "k": "347",
-                    "v": "Files\/File347.tif"
-                },
-                {
-                    "k": "348",
-                    "v": "Files\/File348.png"
-                },
-                {
-                    "k": "349",
-                    "v": "Files\/File349.pvr"
-                },
-                {
                     "k": "350",
                     "v": "Files\/File350.mesh"
                 },
@@ -1879,70 +2105,6 @@
                     "v": "Files\/File368.oprfb"
                 },
                 {
-                    "k": "369",
-                    "v": "Files\/File369.pvr"
-                },
-                {
-                    "k": "370",
-                    "v": "Files\/File370.bmp"
-                },
-                {
-                    "k": "371",
-                    "v": "Files\/File371.png"
-                },
-                {
-                    "k": "372",
-                    "v": "Files\/File372.pvr"
-                },
-                {
-                    "k": "373",
-                    "v": "Files\/File373.bmp"
-                },
-                {
-                    "k": "374",
-                    "v": "Files\/File374.png"
-                },
-                {
-                    "k": "375",
-                    "v": "Files\/File375.pvr"
-                },
-                {
-                    "k": "376",
-                    "v": "Files\/File376.bmp"
-                },
-                {
-                    "k": "377",
-                    "v": "Files\/File377.png"
-                },
-                {
-                    "k": "378",
-                    "v": "Files\/File378.pvr"
-                },
-                {
-                    "k": "379",
-                    "v": "Files\/File379.bmp"
-                },
-                {
-                    "k": "380",
-                    "v": "Files\/File380.png"
-                },
-                {
-                    "k": "381",
-                    "v": "Files\/File381.pvr"
-                },
-                {
-                    "k": "382",
-                    "v": "Files\/File382.pvr"
-                },
-                {
-                    "k": "383",
-                    "v": "Files\/File383.pvr"
-                },
-                {
-                    "k": "384",
-                    "v": "Files\/File384.pvr"
-                },
-                {
                     "k": "385",
                     "v": "Files\/File385.mesh"
                 },
@@ -1985,38 +2147,6 @@
                 {
                     "k": "395",
                     "v": "Files\/File395.oprfb"
-                },
-                {
-                    "k": "396",
-                    "v": "Files\/File396.pvr"
-                },
-                {
-                    "k": "397",
-                    "v": "Files\/File397.png"
-                },
-                {
-                    "k": "398",
-                    "v": "Files\/File398.png"
-                },
-                {
-                    "k": "399",
-                    "v": "Files\/File399.pvr"
-                },
-                {
-                    "k": "400",
-                    "v": "Files\/File400.png"
-                },
-                {
-                    "k": "401",
-                    "v": "Files\/File401.png"
-                },
-                {
-                    "k": "402",
-                    "v": "Files\/File402.pvr"
-                },
-                {
-                    "k": "403",
-                    "v": "Files\/File403.pvr"
                 },
                 {
                     "k": "424",
@@ -2131,14 +2261,6 @@
                     "v": "Files\/File490.png"
                 },
                 {
-                    "k": "491",
-                    "v": "Files\/File491.png"
-                },
-                {
-                    "k": "492",
-                    "v": "Files\/File492.pvr"
-                },
-                {
                     "k": "493",
                     "v": "Files\/File493.pvr"
                 },
@@ -2153,6 +2275,254 @@
                 {
                     "k": "496",
                     "v": "Files\/File496.pvr"
+                },
+                {
+                    "k": "518",
+                    "v": "Files\/File518"
+                },
+                {
+                    "k": "519",
+                    "v": "Files\/File519.lsmat"
+                },
+                {
+                    "k": "520",
+                    "v": "Files\/File520"
+                },
+                {
+                    "k": "521",
+                    "v": "Files\/File521.lsmat"
+                },
+                {
+                    "k": "522",
+                    "v": "Files\/File522"
+                },
+                {
+                    "k": "523",
+                    "v": "Files\/File523.lsmat"
+                },
+                {
+                    "k": "524",
+                    "v": "Files\/File524"
+                },
+                {
+                    "k": "525",
+                    "v": "Files\/File525.lsmat"
+                },
+                {
+                    "k": "532",
+                    "v": "Files\/File532"
+                },
+                {
+                    "k": "533",
+                    "v": "Files\/File533.lsmat"
+                },
+                {
+                    "k": "534",
+                    "v": "Files\/File534"
+                },
+                {
+                    "k": "535",
+                    "v": "Files\/File535.lsmat"
+                },
+                {
+                    "k": "541",
+                    "v": "Files\/File541.pvr"
+                },
+                {
+                    "k": "542",
+                    "v": "Files\/File542.png"
+                },
+                {
+                    "k": "570",
+                    "v": "Files\/File570.png"
+                },
+                {
+                    "k": "571",
+                    "v": "Files\/File571.png"
+                },
+                {
+                    "k": "583",
+                    "v": "Files\/File583"
+                },
+                {
+                    "k": "584",
+                    "v": "Files\/File584.lsmat"
+                },
+                {
+                    "k": "585",
+                    "v": "Files\/File585"
+                },
+                {
+                    "k": "586",
+                    "v": "Files\/File586.lsmat"
+                },
+                {
+                    "k": "587",
+                    "v": "Files\/File587.jpg"
+                },
+                {
+                    "k": "588",
+                    "v": "Files\/File588.jpg"
+                },
+                {
+                    "k": "589",
+                    "v": "Files\/File589.jpg"
+                },
+                {
+                    "k": "590",
+                    "v": "Files\/File590.jpg"
+                },
+                {
+                    "k": "591",
+                    "v": "Files\/File591.jpg"
+                },
+                {
+                    "k": "592",
+                    "v": "Files\/File592.jpg"
+                },
+                {
+                    "k": "593",
+                    "v": "Files\/File593.jpg"
+                },
+                {
+                    "k": "594",
+                    "v": "Files\/File594.jpg"
+                },
+                {
+                    "k": "595",
+                    "v": "Files\/File595.jpg"
+                },
+                {
+                    "k": "596",
+                    "v": "Files\/File596.jpg"
+                },
+                {
+                    "k": "597",
+                    "v": "Files\/File597.jpg"
+                },
+                {
+                    "k": "598",
+                    "v": "Files\/File598.jpg"
+                },
+                {
+                    "k": "599",
+                    "v": "Files\/File599.jpg"
+                },
+                {
+                    "k": "600",
+                    "v": "Files\/File600.jpg"
+                },
+                {
+                    "k": "601",
+                    "v": "Files\/File601.jpg"
+                },
+                {
+                    "k": "602",
+                    "v": "Files\/File602.jpg"
+                },
+                {
+                    "k": "603",
+                    "v": "Files\/File603.pvr"
+                },
+                {
+                    "k": "604",
+                    "v": "Files\/File604.png"
+                },
+                {
+                    "k": "605",
+                    "v": "Files\/File605.png"
+                },
+                {
+                    "k": "606",
+                    "v": "Files\/File606.pvr"
+                },
+                {
+                    "k": "607",
+                    "v": "Files\/File607.png"
+                },
+                {
+                    "k": "608",
+                    "v": "Files\/File608.png"
+                },
+                {
+                    "k": "609",
+                    "v": "Files\/File609.pvr"
+                },
+                {
+                    "k": "610",
+                    "v": "Files\/File610.png"
+                },
+                {
+                    "k": "611",
+                    "v": "Files\/File611.png"
+                },
+                {
+                    "k": "612",
+                    "v": "Files\/File612.pvr"
+                },
+                {
+                    "k": "613",
+                    "v": "Files\/File613.png"
+                },
+                {
+                    "k": "614",
+                    "v": "Files\/File614.png"
+                },
+                {
+                    "k": "615",
+                    "v": "Files\/File615.pvr"
+                },
+                {
+                    "k": "616",
+                    "v": "Files\/File616.png"
+                },
+                {
+                    "k": "618",
+                    "v": "Files\/File618.png"
+                },
+                {
+                    "k": "619",
+                    "v": "Files\/File619.png"
+                },
+                {
+                    "k": "620",
+                    "v": "Files\/File620.png"
+                },
+                {
+                    "k": "621",
+                    "v": "Files\/File621.pvr"
+                },
+                {
+                    "k": "622",
+                    "v": "Files\/File622.pvr"
+                },
+                {
+                    "k": "623",
+                    "v": "Files\/File623.pvr"
+                },
+                {
+                    "k": "625",
+                    "v": "Files\/File625.pvr"
+                },
+                {
+                    "k": "626",
+                    "v": "Files\/File626.pvr"
+                },
+                {
+                    "k": "627",
+                    "v": "Files\/File627.pvr"
+                },
+                {
+                    "k": "634",
+                    "v": "Files\/File634.png"
+                },
+                {
+                    "k": "635",
+                    "v": "Files\/File635.pvr"
+                },
+                {
+                    "k": "636",
+                    "v": "Files\/File636.js"
                 }
             ]
         },
@@ -2244,38 +2614,6 @@
                     {
                         "k": "71",
                         "v": "Textures\/plants"
-                    },
-                    {
-                        "k": "72",
-                        "v": "Textures\/plants\/mushroom.tif"
-                    },
-                    {
-                        "k": "73",
-                        "v": "Textures\/plants\/flowers.png"
-                    },
-                    {
-                        "k": "74",
-                        "v": "Textures\/plants\/bonsai_branches.bmp"
-                    },
-                    {
-                        "k": "75",
-                        "v": "Textures\/plants\/bonsai_leaves.bmp"
-                    },
-                    {
-                        "k": "76",
-                        "v": "Textures\/plants\/bonsai_roots.bmp"
-                    },
-                    {
-                        "k": "77",
-                        "v": "Textures\/plants\/bonsai_trunk.bmp"
-                    },
-                    {
-                        "k": "78",
-                        "v": "Textures\/plants\/bamboo_leaves.png"
-                    },
-                    {
-                        "k": "79",
-                        "v": "Textures\/plants\/bamboo_trunk.png"
                     },
                     {
                         "k": "80",
@@ -2479,11 +2817,123 @@
                     },
                     {
                         "k": "158",
-                        "v": "Textures\/plants\/bamboo_trunk_preview.png"
+                        "v": "Textures\/plants\/previews\/bamboo_trunk_preview.png"
                     },
                     {
                         "k": "159",
                         "v": "Textures\/ui\/close_button.png"
+                    },
+                    {
+                        "k": "169",
+                        "v": "Materials\/plants\/previews\/bonsai_trunk_preview.lsmat"
+                    },
+                    {
+                        "k": "170",
+                        "v": "Materials\/plants\/previews\/bonsai_roots_preview.lsmat"
+                    },
+                    {
+                        "k": "171",
+                        "v": "Materials\/plants\/previews\/bonsai_branches_preview.lsmat"
+                    },
+                    {
+                        "k": "172",
+                        "v": "Materials\/plants\/previews\/bonsai_leaves_preview.lsmat"
+                    },
+                    {
+                        "k": "175",
+                        "v": "Materials\/plants\/previews\/bamboo_trunk_preview.lsmat"
+                    },
+                    {
+                        "k": "176",
+                        "v": "Materials\/plants\/previews\/bamboo_leaves_preview.lsmat"
+                    },
+                    {
+                        "k": "177",
+                        "v": "Textures\/plants\/previews"
+                    },
+                    {
+                        "k": "182",
+                        "v": "Textures\/plants\/prefabs"
+                    },
+                    {
+                        "k": "183",
+                        "v": "Textures\/plants\/previews\/bamboo_leaves_preview.png"
+                    },
+                    {
+                        "k": "184",
+                        "v": "Materials\/plants"
+                    },
+                    {
+                        "k": "186",
+                        "v": "Materials\/plants\/previews"
+                    },
+                    {
+                        "k": "194",
+                        "v": "Textures\/plants\/previews\/flowers_preview.png"
+                    },
+                    {
+                        "k": "196",
+                        "v": "Materials\/plants\/previews\/flowers_preview.lsmat"
+                    },
+                    {
+                        "k": "197",
+                        "v": "Materials\/plants\/previews\/mushroom_preview.lsmat"
+                    },
+                    {
+                        "k": "198",
+                        "v": "Textures\/plants\/prefabs\/bamboo_leaves.jpg"
+                    },
+                    {
+                        "k": "199",
+                        "v": "Textures\/plants\/prefabs\/bamboo_trunk.jpg"
+                    },
+                    {
+                        "k": "200",
+                        "v": "Textures\/plants\/prefabs\/bonsai_branches.jpg"
+                    },
+                    {
+                        "k": "201",
+                        "v": "Textures\/plants\/prefabs\/bonsai_leaves.jpg"
+                    },
+                    {
+                        "k": "202",
+                        "v": "Textures\/plants\/prefabs\/bonsai_roots.jpg"
+                    },
+                    {
+                        "k": "203",
+                        "v": "Textures\/plants\/prefabs\/bonsai_trunk.jpg"
+                    },
+                    {
+                        "k": "204",
+                        "v": "Textures\/plants\/prefabs\/flowers.jpg"
+                    },
+                    {
+                        "k": "205",
+                        "v": "Textures\/plants\/prefabs\/mushroom.jpg"
+                    },
+                    {
+                        "k": "206",
+                        "v": "Textures\/plants\/previews\/bonsai_branches_preview.png"
+                    },
+                    {
+                        "k": "207",
+                        "v": "Textures\/plants\/previews\/bonsai_leaves_preview.png"
+                    },
+                    {
+                        "k": "208",
+                        "v": "Textures\/plants\/previews\/bonsai_roots_preview.png"
+                    },
+                    {
+                        "k": "209",
+                        "v": "Textures\/plants\/previews\/bonsai_trunk_preview.png"
+                    },
+                    {
+                        "k": "210",
+                        "v": "Textures\/plants\/previews\/mushroom_preview.png"
+                    },
+                    {
+                        "k": "211",
+                        "v": "Script.js"
                     }
                 ],
                 "hashes": [
@@ -2617,7 +3067,7 @@
                     },
                     {
                         "k": "51",
-                        "v": "03a6e75a5963523e2d28524e87ef15ff"
+                        "v": "4eee738f5dc25ab4e9e8b6350a8a1849"
                     },
                     {
                         "k": "52",
@@ -2625,7 +3075,7 @@
                     },
                     {
                         "k": "54",
-                        "v": "21175066b131ec355efdadbaa5a0a641"
+                        "v": "35236f95362a4063da395f93eb8a9a4d"
                     },
                     {
                         "k": "55",
@@ -2633,19 +3083,19 @@
                     },
                     {
                         "k": "57",
-                        "v": "412ebf21ae3284931d62632e1ecc592f"
+                        "v": "184e81c77a55f5b6dbf7702bb9cd48e9"
                     },
                     {
                         "k": "58",
-                        "v": "356c5dc12f5faaebcaf70208ed8972ea"
+                        "v": "f04c39099d37e26defa2ae3c4bcc522d"
                     },
                     {
                         "k": "59",
-                        "v": "6b3d777d685ee1692f95b436f1511feb"
+                        "v": "00aee13411c8310bacffc72f84bb6371"
                     },
                     {
                         "k": "60",
-                        "v": "33733b5f4373fc8aea3c8f4372f754f9"
+                        "v": "ff2727f82aaed8f80660cd0b9d9d9de4"
                     },
                     {
                         "k": "61",
@@ -2765,7 +3215,7 @@
                     },
                     {
                         "k": "98",
-                        "v": "48d5db181494ba251aadba7b66de3e41"
+                        "v": "7b63b387ab27731e6e72e8cceda16423"
                     },
                     {
                         "k": "99",
@@ -2813,7 +3263,7 @@
                     },
                     {
                         "k": "115",
-                        "v": "bce34736a617485b84e67818ed572af2"
+                        "v": "3780d70034829b1dd08a8ec6846d9c41"
                     },
                     {
                         "k": "117",
@@ -2853,11 +3303,11 @@
                     },
                     {
                         "k": "130",
-                        "v": "7d34d85452e5ddd4ec6df0b90540eddb"
+                        "v": "92688384615e7c7045ed0b03d259c0e4"
                     },
                     {
                         "k": "131",
-                        "v": "fd5caf7e26f47ee28181b069ab538648"
+                        "v": "73f697329599dd475f5ffc98aee94af3"
                     },
                     {
                         "k": "132",
@@ -2905,7 +3355,7 @@
                     },
                     {
                         "k": "143",
-                        "v": "c8c9b4b47fdfdfdbcbc156e37fe380b5"
+                        "v": "b3733a40a432a5e90da527d4a3dcf71d"
                     },
                     {
                         "k": "144",
@@ -2965,19 +3415,207 @@
                     },
                     {
                         "k": "158",
-                        "v": "6c00f29cb72ac4a14842489de0c19d69"
+                        "v": "b9b2079b3ba23b15372167f253ab550d"
                     },
                     {
                         "k": "159",
                         "v": "81efe3f2806d42b721a8f1600d3be4fd"
+                    },
+                    {
+                        "k": "161",
+                        "v": "b26ddb5f176d359e58af7013bc5ded0a"
+                    },
+                    {
+                        "k": "163",
+                        "v": "003250e24c62154103fa676a18ab73e9"
+                    },
+                    {
+                        "k": "164",
+                        "v": "a3e152511c4d3e72f4f384417d56c778"
+                    },
+                    {
+                        "k": "166",
+                        "v": "caf73d587bbae2e720a3fe2c9dea5e95"
+                    },
+                    {
+                        "k": "167",
+                        "v": "518acd39f020e38da36f98a0be2326d3"
+                    },
+                    {
+                        "k": "169",
+                        "v": "3f291c7dd47e93db9d28b659389a8dca"
+                    },
+                    {
+                        "k": "170",
+                        "v": "f4c5a8a6b563307afaf19e7dd8ac572a"
+                    },
+                    {
+                        "k": "171",
+                        "v": "91a73553500830af30a0fac1d3d6fd00"
+                    },
+                    {
+                        "k": "172",
+                        "v": "52cce294319f64dc0110057c50082a02"
+                    },
+                    {
+                        "k": "173",
+                        "v": "b15aee34b8ad5ccaf93c0497b857ac58"
+                    },
+                    {
+                        "k": "175",
+                        "v": "0f407b47f5bb7fa5d426834941f1f369"
+                    },
+                    {
+                        "k": "176",
+                        "v": "ebdb276a27475f793bbdff33fda1b8d9"
+                    },
+                    {
+                        "k": "177",
+                        "v": "2ed51057f3fcf0daf2f45089eb67c72e"
+                    },
+                    {
+                        "k": "178",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "179",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "180",
+                        "v": "2ed51057f3fcf0daf2f45089eb67c72e"
+                    },
+                    {
+                        "k": "181",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "182",
+                        "v": "2ed51057f3fcf0daf2f45089eb67c72e"
+                    },
+                    {
+                        "k": "183",
+                        "v": "345e77262248832b1aba536d6785fe81"
+                    },
+                    {
+                        "k": "184",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "185",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "186",
+                        "v": "2ed51057f3fcf0daf2f45089eb67c72e"
+                    },
+                    {
+                        "k": "187",
+                        "v": "ba13aabe4be7b287d4b6597243fc17be"
+                    },
+                    {
+                        "k": "188",
+                        "v": "a39887384994c2321b3498b8d7e17e28"
+                    },
+                    {
+                        "k": "189",
+                        "v": "c5cc61d0e8de6ed4f0eb94cf1730f156"
+                    },
+                    {
+                        "k": "190",
+                        "v": "e60241b23691d84d9cef6a04059e8040"
+                    },
+                    {
+                        "k": "191",
+                        "v": "c7efa72a5822d832a9c00c52d0ccc622"
+                    },
+                    {
+                        "k": "192",
+                        "v": "e05ee8276299b64367639535cd333b3c"
+                    },
+                    {
+                        "k": "193",
+                        "v": "65507ad1897cb03debe63783f1d3f2c5"
+                    },
+                    {
+                        "k": "194",
+                        "v": "b2e40edd5fb0e90085d755d9b32ac3d7"
+                    },
+                    {
+                        "k": "195",
+                        "v": "65df8ababc48fa371b84a5f7c663cecd"
+                    },
+                    {
+                        "k": "196",
+                        "v": "9bbe7adacf0498849ca380ee854a8a91"
+                    },
+                    {
+                        "k": "197",
+                        "v": "46563bf505564d299cb3277f4f87ab54"
+                    },
+                    {
+                        "k": "198",
+                        "v": "e987b31d5f8f45eb243e94916fce3d59"
+                    },
+                    {
+                        "k": "199",
+                        "v": "0beba77feb02476d87bf96109f118913"
+                    },
+                    {
+                        "k": "200",
+                        "v": "291cf9572df54746209e597b5abbdfc8"
+                    },
+                    {
+                        "k": "201",
+                        "v": "fe41aee3c425dac734ae9cc3db0930d2"
+                    },
+                    {
+                        "k": "202",
+                        "v": "309ad1ec9d280a5e6f9c108a4859db85"
+                    },
+                    {
+                        "k": "203",
+                        "v": "21504489f765f0d74a47115981747a96"
+                    },
+                    {
+                        "k": "204",
+                        "v": "2a3e5764093a8defa1bd776ac41d375e"
+                    },
+                    {
+                        "k": "205",
+                        "v": "c6ba0db38030ec8284ae7e6ff898e6de"
+                    },
+                    {
+                        "k": "206",
+                        "v": "bb39d36c5dc793b48552a2bae9c90d1e"
+                    },
+                    {
+                        "k": "207",
+                        "v": "7bbc17372ba4bb6b1d340a73cff91936"
+                    },
+                    {
+                        "k": "208",
+                        "v": "f41dbe427fa56b85e51c005add2e7ed1"
+                    },
+                    {
+                        "k": "209",
+                        "v": "065228a0b90b13eaaf85bd256212ff38"
+                    },
+                    {
+                        "k": "210",
+                        "v": "c113170ac237ab7a7f4b4e82af482b99"
+                    },
+                    {
+                        "k": "211",
+                        "v": "ab60e986ddeb173ddaf60236deb8736d"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-02T19:05:06",
+                        "lastModified": "2021-03-03T22:40:30",
                         "name": "Public",
-                        "hash": "dfe84c87a0fdc31fd6a14fbd59064bf9",
+                        "hash": "56194067c57329a6fd4b745d5a028bbe",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -2988,9 +3626,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-02-26T01:36:15",
+                                "lastModified": "2021-03-03T20:44:11",
                                 "name": "Materials",
-                                "hash": "82c65fa61fe3a034f4c016d9700e3ddc",
+                                "hash": "90f7eff822516c781e14199ae91b17be",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3005,12 +3643,98 @@
                                         "name": "Hologram.lsmat",
                                         "hash": "6d280c1ef84cc47a478f6f309f1e8ab2",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2021-03-03T21:00:09",
+                                        "name": "plants",
+                                        "hash": "6d9dab26a822462a9c2cc51e59bcc1cc",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-03T20:43:31",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2021-03-03T22:05:04",
+                                                "name": "previews",
+                                                "hash": "8e10d1b89414a95f46d523f951d1dcaf",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:21:07",
+                                                        "name": "bamboo_leaves_preview.lsmat",
+                                                        "hash": "ebdb276a27475f793bbdff33fda1b8d9",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:21:10",
+                                                        "name": "bamboo_trunk_preview.lsmat",
+                                                        "hash": "0f407b47f5bb7fa5d426834941f1f369",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:58:23",
+                                                        "name": "bonsai_branches_preview.lsmat",
+                                                        "hash": "91a73553500830af30a0fac1d3d6fd00",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:58:35",
+                                                        "name": "bonsai_leaves_preview.lsmat",
+                                                        "hash": "52cce294319f64dc0110057c50082a02",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:58:03",
+                                                        "name": "bonsai_roots_preview.lsmat",
+                                                        "hash": "f4c5a8a6b563307afaf19e7dd8ac572a",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:57:29",
+                                                        "name": "bonsai_trunk_preview.lsmat",
+                                                        "hash": "3f291c7dd47e93db9d28b659389a8dca",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:23:04",
+                                                        "name": "flowers_preview.lsmat",
+                                                        "hash": "9bbe7adacf0498849ca380ee854a8a91",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T20:43:41",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T22:05:04",
+                                                        "name": "mushroom_preview.lsmat",
+                                                        "hash": "46563bf505564d299cb3277f4f87ab54",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-02T18:47:39",
+                                "lastModified": "2021-03-03T20:50:13",
                                 "name": "Plants",
                                 "hash": "fd92200642e8f43fb88e29ecf89cbe6a",
                                 "children": [
@@ -3052,10 +3776,17 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2021-03-03T22:40:30",
+                                "name": "Script.js",
+                                "hash": "ab60e986ddeb173ddaf60236deb8736d",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-02T18:19:19",
+                                "lastModified": "2021-03-03T22:58:17",
                                 "name": "Scripts",
-                                "hash": "3fe9c8697e8fde353457225b6d98f44e",
+                                "hash": "222e636612e960a9539ac161dd0bbbd2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3066,16 +3797,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-02T18:19:19",
+                                        "lastModified": "2021-03-03T22:58:16",
                                         "name": "Spawner.js",
-                                        "hash": "bce34736a617485b84e67818ed572af2",
+                                        "hash": "3780d70034829b1dd08a8ec6846d9c41",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-02T01:44:24",
+                                        "lastModified": "2021-03-03T17:06:42",
                                         "name": "Tap_v3.js",
-                                        "hash": "c8c9b4b47fdfdfdbcbc156e37fe380b5",
+                                        "hash": "b3733a40a432a5e90da527d4a3dcf71d",
                                         "children": ""
                                     },
                                     {
@@ -3173,15 +3904,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-02T18:40:58",
+                                        "lastModified": "2021-03-03T17:07:13",
                                         "name": "UI",
-                                        "hash": "de0437420e243611844ec54112b2a498",
+                                        "hash": "f94d409e5cca5f1492f1d7064f85880c",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-02-24T19:36:53",
+                                                "lastModified": "2021-03-03T17:07:13",
                                                 "name": "Confirm.js",
-                                                "hash": "48d5db181494ba251aadba7b66de3e41",
+                                                "hash": "7b63b387ab27731e6e72e8cceda16423",
                                                 "children": ""
                                             },
                                             {
@@ -3358,7 +4089,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-03-02T15:01:46",
                                 "name": "Textures",
-                                "hash": "1db7622061137b0891dc188f34a34906",
+                                "hash": "2924bcb992463039bdb9e18c06b06d0b",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3507,66 +4238,10 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-02T19:02:18",
+                                        "lastModified": "2021-03-03T20:32:54",
                                         "name": "plants",
-                                        "hash": "28d163dd2285e10ed8e348d541b437dd",
+                                        "hash": "6191b93efdaabc986cb58f4a851ee90f",
                                         "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bamboo_leaves.png",
-                                                "hash": "edfc248873a07c3077ef5680dd4c8ed0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bamboo_trunk.png",
-                                                "hash": "2d632a15c344faee99fe7ca35b2ec499",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-03-02T19:02:18",
-                                                "name": "bamboo_trunk_preview.png",
-                                                "hash": "6c00f29cb72ac4a14842489de0c19d69",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bonsai_branches.bmp",
-                                                "hash": "f9254557e1b07112330c968a61c592ed",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bonsai_leaves.bmp",
-                                                "hash": "7996914b297aeb1717c8492ed1a59d93",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bonsai_roots.bmp",
-                                                "hash": "da238edfc3607d85c7e6fd8b374b79b0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "bonsai_trunk.bmp",
-                                                "hash": "b32e704d5a0dc376b1e703820b1fe5d4",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "flowers.png",
-                                                "hash": "e05ee8276299b64367639535cd333b3c",
-                                                "children": ""
-                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2021-02-24T18:18:10",
@@ -3575,11 +4250,146 @@
                                                 "children": ""
                                             },
                                             {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "mushroom.tif",
-                                                "hash": "65507ad1897cb03debe63783f1d3f2c5",
-                                                "children": ""
+                                                "isFolder": "true",
+                                                "lastModified": "2021-03-03T21:44:20",
+                                                "name": "prefabs",
+                                                "hash": "ec16bf299e4d4b82ffd5f93c745b7369",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:33:13",
+                                                        "name": "bamboo_leaves.jpg",
+                                                        "hash": "e987b31d5f8f45eb243e94916fce3d59",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:35:47",
+                                                        "name": "bamboo_trunk.jpg",
+                                                        "hash": "0beba77feb02476d87bf96109f118913",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:37:34",
+                                                        "name": "bonsai_branches.jpg",
+                                                        "hash": "291cf9572df54746209e597b5abbdfc8",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:42:33",
+                                                        "name": "bonsai_leaves.jpg",
+                                                        "hash": "fe41aee3c425dac734ae9cc3db0930d2",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:43:14",
+                                                        "name": "bonsai_roots.jpg",
+                                                        "hash": "309ad1ec9d280a5e6f9c108a4859db85",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:43:48",
+                                                        "name": "bonsai_trunk.jpg",
+                                                        "hash": "21504489f765f0d74a47115981747a96",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:41:47",
+                                                        "name": "flowers.jpg",
+                                                        "hash": "2a3e5764093a8defa1bd776ac41d375e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T20:32:44",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:44:16",
+                                                        "name": "mushroom.jpg",
+                                                        "hash": "c6ba0db38030ec8284ae7e6ff898e6de",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2021-03-03T22:12:03",
+                                                "name": "previews",
+                                                "hash": "ff685b1bd310b3d69e97e870e79f849b",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:52:16",
+                                                        "name": "bamboo_leaves_preview.png",
+                                                        "hash": "345e77262248832b1aba536d6785fe81",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:49:10",
+                                                        "name": "bamboo_trunk_preview.png",
+                                                        "hash": "b9b2079b3ba23b15372167f253ab550d",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:49:34",
+                                                        "name": "bonsai_branches_preview.png",
+                                                        "hash": "bb39d36c5dc793b48552a2bae9c90d1e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:49:24",
+                                                        "name": "bonsai_leaves_preview.png",
+                                                        "hash": "7bbc17372ba4bb6b1d340a73cff91936",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:50:01",
+                                                        "name": "bonsai_roots_preview.png",
+                                                        "hash": "f41dbe427fa56b85e51c005add2e7ed1",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:50:06",
+                                                        "name": "bonsai_trunk_preview.png",
+                                                        "hash": "065228a0b90b13eaaf85bd256212ff38",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T21:51:49",
+                                                        "name": "flowers_preview.png",
+                                                        "hash": "b2e40edd5fb0e90085d755d9b32ac3d7",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T20:29:34",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2021-03-03T22:11:09",
+                                                        "name": "mushroom_preview.png",
+                                                        "hash": "c113170ac237ab7a7f4b4e82af482b99",
+                                                        "children": ""
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },
@@ -3679,21 +4489,25 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "Mushroom",
+                                "name": "Bamboo",
                                 "type": "18",
                                 "subtype": "-1",
                                 "resourceId": "-1",
                                 "dependency": "2",
                                 "uid": "-1:-1",
-                                "fileId": "329",
+                                "fileId": "394",
                                 "originalId": "18446744073709551615",
-                                "publicId": "49",
-                                "source": "D:\/Downloads\/drive-download-20210224T221042Z-001\/Mushroom.fbx",
+                                "publicId": "128",
+                                "source": "D:\/Downloads\/BambooModel.fbx",
                                 "additional": {
                                     "materialMapping": [
                                         {
+                                            "k": "blinn1",
+                                            "v": "1614206864100155:977561"
+                                        },
+                                        {
                                             "k": "lambert2",
-                                            "v": "1614204987294432:634981"
+                                            "v": "1614206863852505:977518"
                                         }
                                     ]
                                 },
@@ -3712,14 +4526,27 @@
                                         "additional": "",
                                         "resources": [
                                             {
-                                                "name": "amanita_A",
+                                                "name": "Trunk",
                                                 "type": "3",
                                                 "subtype": "0",
-                                                "resourceId": "272",
+                                                "resourceId": "295",
                                                 "dependency": "1",
-                                                "uid": "1614204987219579:634963",
-                                                "fileId": "324",
-                                                "originalId": "325",
+                                                "uid": "1614206863694811:977474",
+                                                "fileId": "385",
+                                                "originalId": "386",
+                                                "publicId": "18446744073709551615",
+                                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Leaves",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "296",
+                                                "dependency": "1",
+                                                "uid": "1614206863779049:977496",
+                                                "fileId": "387",
+                                                "originalId": "388",
                                                 "publicId": "18446744073709551615",
                                                 "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                                                 "additional": ""
@@ -3741,7 +4568,7 @@
                                         "resources": ""
                                     },
                                     {
-                                        "name": "Materials00",
+                                        "name": "Materials0",
                                         "type": "0",
                                         "subtype": "-1",
                                         "resourceId": "-1",
@@ -3749,7 +4576,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "18446744073709551615",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "50",
+                                        "publicId": "129",
                                         "source": "",
                                         "additional": "",
                                         "resources": [
@@ -3757,131 +4584,39 @@
                                                 "name": "lambert2",
                                                 "type": "2",
                                                 "subtype": "0",
-                                                "resourceId": "273",
+                                                "resourceId": "297",
                                                 "dependency": "0",
-                                                "uid": "1614204987294432:634981",
-                                                "fileId": "326",
-                                                "originalId": "327",
-                                                "publicId": "51",
+                                                "uid": "1614206863852505:977518",
+                                                "fileId": "389",
+                                                "originalId": "390",
+                                                "publicId": "130",
                                                 "source": "",
                                                 "additional": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Mushroom",
-                                        "type": "12",
-                                        "subtype": "-1",
-                                        "resourceId": "274",
-                                        "dependency": "1",
-                                        "uid": "1614204987450306:635032",
-                                        "fileId": "328",
-                                        "originalId": "330",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Flowers",
-                                "type": "18",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "2",
-                                "uid": "-1:-1",
-                                "fileId": "336",
-                                "originalId": "18446744073709551615",
-                                "publicId": "52",
-                                "source": "D:\/Downloads\/Flowers.fbx",
-                                "additional": {
-                                    "materialMapping": [
-                                        {
-                                            "k": "lambert3",
-                                            "v": "1614205135631957:662687"
-                                        }
-                                    ]
-                                },
-                                "resources": [
-                                    {
-                                        "name": "Meshes",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "1",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
+                                            },
                                             {
-                                                "name": "WC_Babiana_Blue_Flower_01",
-                                                "type": "3",
-                                                "subtype": "0",
-                                                "resourceId": "275",
-                                                "dependency": "1",
-                                                "uid": "1614205135578746:662673",
-                                                "fileId": "331",
-                                                "originalId": "332",
-                                                "publicId": "18446744073709551615",
-                                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                "additional": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "name": "Animations",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "1",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": ""
-                                    },
-                                    {
-                                        "name": "Materials00",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "53",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "lambert3",
+                                                "name": "blinn1",
                                                 "type": "2",
                                                 "subtype": "0",
-                                                "resourceId": "276",
+                                                "resourceId": "298",
                                                 "dependency": "0",
-                                                "uid": "1614205135631957:662687",
-                                                "fileId": "333",
-                                                "originalId": "334",
-                                                "publicId": "54",
+                                                "uid": "1614206864100155:977561",
+                                                "fileId": "391",
+                                                "originalId": "392",
+                                                "publicId": "131",
                                                 "source": "",
                                                 "additional": ""
                                             }
                                         ]
                                     },
                                     {
-                                        "name": "Flowers",
+                                        "name": "BambooModel",
                                         "type": "12",
                                         "subtype": "-1",
-                                        "resourceId": "277",
+                                        "resourceId": "299",
                                         "dependency": "1",
-                                        "uid": "1614205135740742:662734",
-                                        "fileId": "335",
-                                        "originalId": "337",
+                                        "uid": "1614206864248381:977628",
+                                        "fileId": "393",
+                                        "originalId": "395",
                                         "publicId": "18446744073709551615",
                                         "source": "",
                                         "additional": ""
@@ -4084,25 +4819,21 @@
                                 ]
                             },
                             {
-                                "name": "Bamboo",
+                                "name": "Flowers",
                                 "type": "18",
                                 "subtype": "-1",
                                 "resourceId": "-1",
                                 "dependency": "2",
                                 "uid": "-1:-1",
-                                "fileId": "394",
+                                "fileId": "336",
                                 "originalId": "18446744073709551615",
-                                "publicId": "128",
-                                "source": "D:\/Downloads\/BambooModel.fbx",
+                                "publicId": "52",
+                                "source": "D:\/Downloads\/Flowers.fbx",
                                 "additional": {
                                     "materialMapping": [
                                         {
-                                            "k": "blinn1",
-                                            "v": "1614206864100155:977561"
-                                        },
-                                        {
-                                            "k": "lambert2",
-                                            "v": "1614206863852505:977518"
+                                            "k": "lambert3",
+                                            "v": "1614205135631957:662687"
                                         }
                                     ]
                                 },
@@ -4121,27 +4852,14 @@
                                         "additional": "",
                                         "resources": [
                                             {
-                                                "name": "Trunk",
+                                                "name": "WC_Babiana_Blue_Flower_01",
                                                 "type": "3",
                                                 "subtype": "0",
-                                                "resourceId": "295",
+                                                "resourceId": "275",
                                                 "dependency": "1",
-                                                "uid": "1614206863694811:977474",
-                                                "fileId": "385",
-                                                "originalId": "386",
-                                                "publicId": "18446744073709551615",
-                                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "Leaves",
-                                                "type": "3",
-                                                "subtype": "0",
-                                                "resourceId": "296",
-                                                "dependency": "1",
-                                                "uid": "1614206863779049:977496",
-                                                "fileId": "387",
-                                                "originalId": "388",
+                                                "uid": "1614205135578746:662673",
+                                                "fileId": "331",
+                                                "originalId": "332",
                                                 "publicId": "18446744073709551615",
                                                 "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                                                 "additional": ""
@@ -4163,7 +4881,7 @@
                                         "resources": ""
                                     },
                                     {
-                                        "name": "Materials0",
+                                        "name": "Materials00",
                                         "type": "0",
                                         "subtype": "-1",
                                         "resourceId": "-1",
@@ -4171,7 +4889,112 @@
                                         "uid": "-1:-1",
                                         "fileId": "18446744073709551615",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "129",
+                                        "publicId": "53",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "lambert3",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "276",
+                                                "dependency": "0",
+                                                "uid": "1614205135631957:662687",
+                                                "fileId": "333",
+                                                "originalId": "334",
+                                                "publicId": "54",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Flowers",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "277",
+                                        "dependency": "1",
+                                        "uid": "1614205135740742:662734",
+                                        "fileId": "335",
+                                        "originalId": "337",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mushroom",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "329",
+                                "originalId": "18446744073709551615",
+                                "publicId": "49",
+                                "source": "D:\/Downloads\/drive-download-20210224T221042Z-001\/Mushroom.fbx",
+                                "additional": {
+                                    "materialMapping": [
+                                        {
+                                            "k": "lambert2",
+                                            "v": "1614204987294432:634981"
+                                        }
+                                    ]
+                                },
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "amanita_A",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "272",
+                                                "dependency": "1",
+                                                "uid": "1614204987219579:634963",
+                                                "fileId": "324",
+                                                "originalId": "325",
+                                                "publicId": "18446744073709551615",
+                                                "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-WXERyX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "Materials00",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "50",
                                         "source": "",
                                         "additional": "",
                                         "resources": [
@@ -4179,39 +5002,26 @@
                                                 "name": "lambert2",
                                                 "type": "2",
                                                 "subtype": "0",
-                                                "resourceId": "297",
+                                                "resourceId": "273",
                                                 "dependency": "0",
-                                                "uid": "1614206863852505:977518",
-                                                "fileId": "389",
-                                                "originalId": "390",
-                                                "publicId": "130",
-                                                "source": "",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "blinn1",
-                                                "type": "2",
-                                                "subtype": "0",
-                                                "resourceId": "298",
-                                                "dependency": "0",
-                                                "uid": "1614206864100155:977561",
-                                                "fileId": "391",
-                                                "originalId": "392",
-                                                "publicId": "131",
+                                                "uid": "1614204987294432:634981",
+                                                "fileId": "326",
+                                                "originalId": "327",
+                                                "publicId": "51",
                                                 "source": "",
                                                 "additional": ""
                                             }
                                         ]
                                     },
                                     {
-                                        "name": "BambooModel",
+                                        "name": "Mushroom",
                                         "type": "12",
                                         "subtype": "-1",
-                                        "resourceId": "299",
+                                        "resourceId": "274",
                                         "dependency": "1",
-                                        "uid": "1614206864248381:977628",
-                                        "fileId": "393",
-                                        "originalId": "395",
+                                        "uid": "1614204987450306:635032",
+                                        "fileId": "328",
+                                        "originalId": "330",
                                         "publicId": "18446744073709551615",
                                         "source": "",
                                         "additional": ""
@@ -4498,121 +5308,242 @@
                                 "additional": "",
                                 "resources": [
                                     {
-                                        "name": "mushroom",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "281",
+                                        "name": "previews",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
                                         "dependency": "0",
-                                        "uid": "1614205506909376:729575",
-                                        "fileId": "346",
-                                        "originalId": "347",
-                                        "publicId": "72",
-                                        "source": "D:\/Downloads\/drive-download-20210224T221042Z-001\/amanita_color3.tif",
-                                        "additional": ""
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "177",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "bamboo_trunk_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "332",
+                                                "dependency": "0",
+                                                "uid": "1614733340425599:20888703",
+                                                "fileId": "489",
+                                                "originalId": "490",
+                                                "publicId": "158",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bamboo_trunk_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bamboo_leaves_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "354",
+                                                "dependency": "0",
+                                                "uid": "1614825652191882:30535815",
+                                                "fileId": "541",
+                                                "originalId": "542",
+                                                "publicId": "183",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bamboo_leaves_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "flowers_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "362",
+                                                "dependency": "0",
+                                                "uid": "1614826834910561:12007",
+                                                "fileId": "570",
+                                                "originalId": "571",
+                                                "publicId": "194",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/flowers_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_branches_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "374",
+                                                "dependency": "0",
+                                                "uid": "1614830023783118:12610",
+                                                "fileId": "603",
+                                                "originalId": "604",
+                                                "publicId": "206",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bonsai_branches_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_leaves_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "375",
+                                                "dependency": "0",
+                                                "uid": "1614830023972175:12617",
+                                                "fileId": "606",
+                                                "originalId": "607",
+                                                "publicId": "207",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bonsai_leaves_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_roots_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "376",
+                                                "dependency": "0",
+                                                "uid": "1614830024243179:12624",
+                                                "fileId": "609",
+                                                "originalId": "610",
+                                                "publicId": "208",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bonsai_roots_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_trunk_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "377",
+                                                "dependency": "0",
+                                                "uid": "1614830027936580:12631",
+                                                "fileId": "612",
+                                                "originalId": "613",
+                                                "publicId": "209",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/bonsai_trunk_preview.png",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "mushroom_preview",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "378",
+                                                "dependency": "0",
+                                                "uid": "1614830038562661:12638",
+                                                "fileId": "615",
+                                                "originalId": "616",
+                                                "publicId": "210",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/previews\/mushroom_preview.png",
+                                                "additional": ""
+                                            }
+                                        ]
                                     },
                                     {
-                                        "name": "flowers",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "280",
+                                        "name": "prefabs",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
                                         "dependency": "0",
-                                        "uid": "1614205362072900:704331",
-                                        "fileId": "342",
-                                        "originalId": "343",
-                                        "publicId": "73",
-                                        "source": "D:\/Downloads\/Pink Flower.png",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bonsai_branches",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "291",
-                                        "dependency": "0",
-                                        "uid": "1614206294254886:854653",
-                                        "fileId": "369",
-                                        "originalId": "370",
-                                        "publicId": "74",
-                                        "source": "D:\/Downloads\/drive-download-20210224T223734Z-001\/Branches.bmp",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bonsai_leaves",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "292",
-                                        "dependency": "0",
-                                        "uid": "1614206294662867:854703",
-                                        "fileId": "372",
-                                        "originalId": "373",
-                                        "publicId": "75",
-                                        "source": "D:\/Downloads\/drive-download-20210224T223734Z-001\/Leaves.bmp",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bonsai_roots",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "293",
-                                        "dependency": "0",
-                                        "uid": "1614206295716815:856494",
-                                        "fileId": "375",
-                                        "originalId": "376",
-                                        "publicId": "76",
-                                        "source": "D:\/Downloads\/drive-download-20210224T223734Z-001\/Roots.bmp",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bonsai_trunk",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "294",
-                                        "dependency": "0",
-                                        "uid": "1614206316784873:858294",
-                                        "fileId": "378",
-                                        "originalId": "379",
-                                        "publicId": "77",
-                                        "source": "D:\/Downloads\/drive-download-20210224T223734Z-001\/Trunk.bmp",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bamboo_leaves",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "300",
-                                        "dependency": "0",
-                                        "uid": "1614207074402212:1030812",
-                                        "fileId": "396",
-                                        "originalId": "397",
-                                        "publicId": "78",
-                                        "source": "D:\/Downloads\/drive-download-20210224T224953Z-001\/Leaves.png",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bamboo_trunk",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "301",
-                                        "dependency": "0",
-                                        "uid": "1614207074770157:1030859",
-                                        "fileId": "399",
-                                        "originalId": "400",
-                                        "publicId": "79",
-                                        "source": "D:\/Downloads\/drive-download-20210224T224953Z-001\/Trunk.png",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "bamboo_trunk_preview",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "332",
-                                        "dependency": "0",
-                                        "uid": "1614733340425599:20888703",
-                                        "fileId": "489",
-                                        "originalId": "490",
-                                        "publicId": "158",
-                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/bamboo_trunk_preview.png",
-                                        "additional": ""
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "182",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "bamboo_leaves",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "366",
+                                                "dependency": "0",
+                                                "uid": "1614828794955603:434164",
+                                                "fileId": "587",
+                                                "originalId": "588",
+                                                "publicId": "198",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bamboo_leaves.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bamboo_trunk",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "367",
+                                                "dependency": "0",
+                                                "uid": "1614828948932302:469758",
+                                                "fileId": "589",
+                                                "originalId": "590",
+                                                "publicId": "199",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bamboo_trunk.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_branches",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "368",
+                                                "dependency": "0",
+                                                "uid": "1614829056038261:493104",
+                                                "fileId": "591",
+                                                "originalId": "592",
+                                                "publicId": "200",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bonsai_branches.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_leaves",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "369",
+                                                "dependency": "0",
+                                                "uid": "1614829494236795:12626",
+                                                "fileId": "593",
+                                                "originalId": "594",
+                                                "publicId": "201",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bonsai_leaves.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_roots",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "370",
+                                                "dependency": "0",
+                                                "uid": "1614829494286725:12633",
+                                                "fileId": "595",
+                                                "originalId": "596",
+                                                "publicId": "202",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bonsai_roots.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_trunk",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "371",
+                                                "dependency": "0",
+                                                "uid": "1614829494323075:12640",
+                                                "fileId": "597",
+                                                "originalId": "598",
+                                                "publicId": "203",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/bonsai_trunk.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "flowers",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "372",
+                                                "dependency": "0",
+                                                "uid": "1614829494370931:12647",
+                                                "fileId": "599",
+                                                "originalId": "600",
+                                                "publicId": "204",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/flowers.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "mushroom",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "373",
+                                                "dependency": "0",
+                                                "uid": "1614829494432195:12654",
+                                                "fileId": "601",
+                                                "originalId": "602",
+                                                "publicId": "205",
+                                                "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/plants\/prefabs\/mushroom.jpg",
+                                                "additional": ""
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -5090,14 +6021,165 @@
                                 "publicId": "117",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "plants",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "184",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "previews",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "186",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "bamboo_trunk_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "351",
+                                                "dependency": "0",
+                                                "uid": "1614824736156856:30382473",
+                                                "fileId": "532",
+                                                "originalId": "533",
+                                                "publicId": "175",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bamboo_leaves_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "352",
+                                                "dependency": "0",
+                                                "uid": "1614824736418314:30382513",
+                                                "fileId": "534",
+                                                "originalId": "535",
+                                                "publicId": "176",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_trunk_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "344",
+                                                "dependency": "0",
+                                                "uid": "1614824734781179:30382139",
+                                                "fileId": "518",
+                                                "originalId": "519",
+                                                "publicId": "169",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_roots_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "345",
+                                                "dependency": "0",
+                                                "uid": "1614824734961409:30382171",
+                                                "fileId": "520",
+                                                "originalId": "521",
+                                                "publicId": "170",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_branches_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "346",
+                                                "dependency": "0",
+                                                "uid": "1614824735198827:30382215",
+                                                "fileId": "522",
+                                                "originalId": "523",
+                                                "publicId": "171",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "bonsai_leaves_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "347",
+                                                "dependency": "0",
+                                                "uid": "1614824735438616:30382255",
+                                                "fileId": "524",
+                                                "originalId": "525",
+                                                "publicId": "172",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "flowers_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "364",
+                                                "dependency": "0",
+                                                "uid": "1614828143467587:304066",
+                                                "fileId": "583",
+                                                "originalId": "584",
+                                                "publicId": "196",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "mushroom_preview",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "365",
+                                                "dependency": "0",
+                                                "uid": "1614828348306232:360474",
+                                                "fileId": "585",
+                                                "originalId": "586",
+                                                "publicId": "197",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "379",
+                        "dependency": "0",
+                        "uid": "1614831583954133:256919",
+                        "fileId": "636",
+                        "originalId": "18446744073709551615",
+                        "publicId": "211",
+                        "source": "C:\/Users\/Alex\/AppData\/Local\/Temp\/Lens Studio-iYYoEJ\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1573768036300511:55774"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -5251,6 +6333,130 @@
                                 {
                                     "k": "1614206234183932:840530",
                                     "v": "1614730864404089:20580480"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614827094549030:58058",
+                        "v": {
+                            "prefab": "1614206864248381:977628",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614206864235482:977592",
+                                    "v": "1614827094549030:58058"
+                                },
+                                {
+                                    "k": "1614206864237191:977594",
+                                    "v": "1614827094557908:58060"
+                                },
+                                {
+                                    "k": "1614206864237730:977596",
+                                    "v": "1614827094558653:58062"
+                                },
+                                {
+                                    "k": "1614206864238132:977598",
+                                    "v": "1614827094560208:58064"
+                                },
+                                {
+                                    "k": "1614206864241794:977612",
+                                    "v": "1614827094782569:58144"
+                                },
+                                {
+                                    "k": "1614206864243439:977616",
+                                    "v": "1614827094783138:58146"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614827676916500:205968",
+                        "v": {
+                            "prefab": "1614206234189597:840542",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614206234165914:840478",
+                                    "v": "1614827676916500:205968"
+                                },
+                                {
+                                    "k": "1614206234167942:840480",
+                                    "v": "1614827676918172:205986"
+                                },
+                                {
+                                    "k": "1614206234168681:840482",
+                                    "v": "1614827676919132:205988"
+                                },
+                                {
+                                    "k": "1614206234169223:840484",
+                                    "v": "1614827676919976:205990"
+                                },
+                                {
+                                    "k": "1614206234171525:840496",
+                                    "v": "1614827676931072:206005"
+                                },
+                                {
+                                    "k": "1614206234172715:840498",
+                                    "v": "1614827676932537:206007"
+                                },
+                                {
+                                    "k": "1614206234175215:840514",
+                                    "v": "1614827676938514:206026"
+                                },
+                                {
+                                    "k": "1614206234176549:840516",
+                                    "v": "1614827676939582:206028"
+                                },
+                                {
+                                    "k": "1614206234182676:840528",
+                                    "v": "1614827676945464:206043"
+                                },
+                                {
+                                    "k": "1614206234183932:840530",
+                                    "v": "1614827676948443:206045"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614828197884827:321367",
+                        "v": {
+                            "prefab": "1614205135740742:662734",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614205135732725:662714",
+                                    "v": "1614828197884827:321367"
+                                },
+                                {
+                                    "k": "1614205135734813:662718",
+                                    "v": "1614828197886933:321373"
+                                },
+                                {
+                                    "k": "1614205135735868:662722",
+                                    "v": "1614828197888360:321375"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614828338285565:352830",
+                        "v": {
+                            "prefab": "1614204987450306:635032",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614204987441806:635016",
+                                    "v": "1614828338285565:352830"
+                                },
+                                {
+                                    "k": "1614204987446139:635018",
+                                    "v": "1614828338287164:352836"
+                                },
+                                {
+                                    "k": "1614204987446885:635020",
+                                    "v": "1614828338288254:352838"
                                 }
                             ]
                         }
@@ -5496,222 +6702,6 @@
                     }
                 },
                 {
-                    "k": "1614205362072900:704331",
-                    "v": {
-                        "infos": {
-                            "originalSize": "326181",
-                            "compressedSize": "103706",
-                            "originalRAM": "4194304",
-                            "compressedRAM": "524288",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "344",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "e05ee8276299b64367639535cd333b3c",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "345"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614205506909376:729575",
-                    "v": {
-                        "infos": {
-                            "originalSize": "256672",
-                            "compressedSize": "67896",
-                            "originalRAM": "1048576",
-                            "compressedRAM": "131072",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "348",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "3518639a4d661af1d073b1a3ce818af8",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "349"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614206294254886:854653",
-                    "v": {
-                        "infos": {
-                            "originalSize": "413551",
-                            "compressedSize": "109457",
-                            "originalRAM": "1048576",
-                            "compressedRAM": "131072",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "371",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "3ca5917150f0ef0639b31232974f27fc",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "382"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614206294662867:854703",
-                    "v": {
-                        "infos": {
-                            "originalSize": "434926",
-                            "compressedSize": "99241",
-                            "originalRAM": "1048576",
-                            "compressedRAM": "131072",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "374",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "8b92fb5463a636f5edff889deb9b42fe",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "381"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614206295716815:856494",
-                    "v": {
-                        "infos": {
-                            "originalSize": "394010",
-                            "compressedSize": "100029",
-                            "originalRAM": "1048576",
-                            "compressedRAM": "131072",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "377",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "e708ece92337daa348aa031592a9703d",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "383"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614206316784873:858294",
-                    "v": {
-                        "infos": {
-                            "originalSize": "442900",
-                            "compressedSize": "106661",
-                            "originalRAM": "1048576",
-                            "compressedRAM": "131072",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "380",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "6a3cf5b57315a3288635b5147ead1446",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "384"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614207074402212:1030812",
-                    "v": {
-                        "infos": {
-                            "originalSize": "867767",
-                            "compressedSize": "292959",
-                            "originalRAM": "4194304",
-                            "compressedRAM": "524288",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "398",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "edfc248873a07c3077ef5680dd4c8ed0",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "403"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614207074770157:1030859",
-                    "v": {
-                        "infos": {
-                            "originalSize": "190672",
-                            "compressedSize": "51968",
-                            "originalRAM": "524288",
-                            "compressedRAM": "65536",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "401",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "2d632a15c344faee99fe7ca35b2ec499",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "402"
-                            }
-                        ]
-                    }
-                },
-                {
                     "k": "1614727035695225:20079290",
                     "v": {
                         "infos": {
@@ -5877,7 +6867,7 @@
                     "k": "1614733340425599:20888703",
                     "v": {
                         "infos": {
-                            "originalSize": "231935",
+                            "originalSize": "221033",
                             "compressedSize": "59803",
                             "originalRAM": "524288",
                             "compressedRAM": "65536",
@@ -5888,14 +6878,14 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "491",
+                        "uncompressed_file": "619",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "6c00f29cb72ac4a14842489de0c19d69",
+                                    "uncompressed_hash": "b9b2079b3ba23b15372167f253ab550d",
                                     "settings_hash": "2049"
                                 },
-                                "v": "492"
+                                "v": "626"
                             }
                         ]
                     }
@@ -5923,6 +6913,187 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "496"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614825652191882:30535815",
+                    "v": {
+                        "infos": {
+                            "originalSize": "914717",
+                            "compressedSize": "325539",
+                            "originalRAM": "4194304",
+                            "compressedRAM": "524288",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "618",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "345e77262248832b1aba536d6785fe81",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "627"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614826834910561:12007",
+                    "v": {
+                        "infos": {
+                            "originalSize": "372791",
+                            "compressedSize": "372791",
+                            "originalRAM": "4194304",
+                            "compressedRAM": "4194304",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "false",
+                                "level": "0",
+                                "type": "0"
+                            }
+                        },
+                        "uncompressed_file": "620",
+                        "compressed_files": ""
+                    }
+                },
+                {
+                    "k": "1614830023783118:12610",
+                    "v": {
+                        "infos": {
+                            "originalSize": "460526",
+                            "compressedSize": "126307",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "605",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "bb39d36c5dc793b48552a2bae9c90d1e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "622"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614830023972175:12617",
+                    "v": {
+                        "infos": {
+                            "originalSize": "488006",
+                            "compressedSize": "116010",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "608",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "7bbc17372ba4bb6b1d340a73cff91936",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "621"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614830024243179:12624",
+                    "v": {
+                        "infos": {
+                            "originalSize": "431973",
+                            "compressedSize": "116342",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "611",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "f41dbe427fa56b85e51c005add2e7ed1",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "623"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614830027936580:12631",
+                    "v": {
+                        "infos": {
+                            "originalSize": "492199",
+                            "compressedSize": "124126",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "614",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "065228a0b90b13eaaf85bd256212ff38",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "625"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614830038562661:12638",
+                    "v": {
+                        "infos": {
+                            "originalSize": "248117",
+                            "compressedSize": "79942",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "634",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "c113170ac237ab7a7f4b4e82af482b99",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "635"
                             }
                         ]
                     }

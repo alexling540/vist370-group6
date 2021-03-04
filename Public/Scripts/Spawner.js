@@ -1,7 +1,7 @@
 // -----JS CODE-----
-// @input Asset.ObjectPrefab[] objectPrefab
+// @input SceneObject[] objectPrefab
 // @input SceneObject[] objectPreview
-// @input Component.ScriptComponent[] objectTaps
+// @input Component.Camera mainCamera
 // @input bool advanced = false;
 // @input SceneObject tween {"showIf":"advanced"}
 // @input SceneObject base {"showIf":"advanced"}
@@ -18,46 +18,36 @@ var tweenValue;
 script.createEvent("TurnOnEvent").bind(function (eventData) {
     // Allows for fullscreen touch input
     global.touchSystem.touchBlocking = true;
-    
+   
     // Disable all but the first object in the array
-    for (var i = 1; i < script.objectPreview.length; i++)
-    {
+    for (var i = 1; i < script.objectPreview.length; i++) {
         script.objectPreview[i].enabled = false;
     }
-    
-    print("Welcome to the Object Spawner Template! To add your own objects to spawn, first add them under the WorldObjectController, then save each of them as a prefab object. Then, you can create a new material to make them look more like a preview, or modify the existing hologram material! Then, in the Spawner script, replace the Object Prefabs with your saved prefabs, and replace the Object Previews with the ones you added under the WorldObjectController! Make sure they are in the same order!");
-    print("If you have any questions feel free to email kargraphical@gmail.com");
 });
 
-var event = script.createEvent("UpdateEvent");
-event.bind(function (eventData)
-{
+script.createEvent("UpdateEvent").bind(function (eventData) {
     // Check for button presses
-    if (global.left)
-    {
+    if (global.left) {
         decreaseTreeIndex();
         global.left = false;
     }
-    if (global.right)
-    {
+    if (global.right) {
         increaseTreeIndex();
         global.right = false;
     }
-    if (global.confirm)
-    {
-        growSelectedTree();
+    if (global.confirm) {
+        growSelected();
         global.confirm = false;
     }
     // If Tween Value is running
-    if (global.tweening)
-    {
+    if (global.tweening) {
         tweenValue = global.tweenManager.getGenericTweenValue(script.tween, "grow");
-        currentScale = oldScale.mult(new vec3(tweenValue, tweenValue, tweenValue));
+        currentScale = oldScale.uniformScale(tweenValue);
         currentTransform.setLocalScale(currentScale);
     }
 });
 
-function growSelectedTree() {
+function growSelected() {
     if (!global.tweening) {
         global.tweening = true;
         script.objectPreview[currentTreeIndex].enabled = false;  
@@ -70,15 +60,28 @@ function growSelectedTree() {
         };
       
         var newObj = script.scene.copyWholeHierarchy(script.objectPreview[currentTreeIndex]);
+        var newObjModel = newObj.getChild(0);
+
+        for (var i = 0; i < newObjModel.getChildrenCount(); i++) {
+            var material = newObjModel.getChild(i).getComponent('Component.RenderMeshVisual').mainMaterial.clone();
+            material.mainPass.blendMode = 6;
+            newObjModel.getChild(i).getComponent('Component.RenderMeshVisual').mainMaterial = material;
+        }
+        
         newObj.enabled = true;
         
-        currentTransform = newObj.getChild(0).getTransform();
+        currentTransform = newObjModel.getTransform();
         oldScale = currentTransform.getWorldScale();
-        print(oldScale);
         currentTransform.setLocalScale(currentScale);        
         
-        print("scene: " + script.scene.getChildrenCount());
-        print("obj: " + newObj.getChildrenCount());
+        print("----------------------");
+        print("spawned")
+        print("    scene: " + script.scene.getChildrenCount());
+        print("    obj:   " + newObj.getChildrenCount());
+        print("----------------------");
+
+        print("obj xyz: " + currentTransform.getWorldPosition());
+        
         var newObjTransform = newObj.getTransform();
         newObjTransform.setWorldPosition(editSceneTransformations.position);
         newObjTransform.setWorldRotation(editSceneTransformations.rotation);
@@ -91,9 +94,17 @@ function growSelectedTree() {
 function setFalse() {
     global.tweening = false;
     // Once object is finished growing, move it to the scene and re enable preview object
-    //setParentInPlace(currentTreeGrowing, script.scene);
-    var baseTransform = script.base.getTransform();
-    baseTransform.setWorldPosition(new vec3(0, 0, 0));
+//    var baseTransform = script.base.getTransform();
+//
+//    var cameraPosition = script.cam.getTransform().getWorldPosition();
+//    var inFrontVec = script.cam.getTransform().getWorldRotation().multiplyVec3(new vec3(10, 10, 10));
+//    print(inFrontVec);
+//    print(cameraPosition);
+//    var newestVec = inFrontVec.add(cameraPosition);
+    //baseTransform.setWorldPosition(new vec3(newestVec.x, 0, newestVec.z));
+    //baseTransform.setWorldPosition(new vec3(cameraPosition.x + 40, 0, cameraPosition.z - 180));    
+    
+    //baseTransform.setWorldPosition(new vec3(0, 0, 0));
     script.objectPreview[currentTreeIndex].enabled = true;
 }
 
@@ -108,28 +119,23 @@ function increaseTreeIndex() {
     for (var i = 0; i < script.objectPreview.length; i++) {
         if (i == currentTreeIndex) {
             script.objectPreview[i].enabled = true;
-        }
-        else {
+        } else {
             script.objectPreview[i].enabled = false;
         }
     }
 }
 
-function decreaseTreeIndex()
-{
+function decreaseTreeIndex() {
     currentTreeIndex--;
     
-    if (currentTreeIndex < 0)
-    {
+    if (currentTreeIndex < 0) {
         currentTreeIndex = script.objectPreview.length - 1;
     }
     
-    for (var i = 0; i < script.objectPreview.length; i++)
-    {
+    for (var i = 0; i < script.objectPreview.length; i++) {
         if (i == currentTreeIndex) {
             script.objectPreview[i].enabled = true;
-        }
-        else {
+        } else {
             script.objectPreview[i].enabled = false;
         }
     }

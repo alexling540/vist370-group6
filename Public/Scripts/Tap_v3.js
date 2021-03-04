@@ -4,7 +4,6 @@
 // @input int num
 
 script.createEvent("TapEvent").bind(function(eventData) {
-    //if (!global.isEditing && !global.isOpen) global.openInfo = script.infoCard;
     if (!global.isEditing && !global.isOpen) {
         global.openInfoCard(script.num);
         print('im clicked');
