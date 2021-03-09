@@ -3,7 +3,7 @@
     "document_id": "D0uW6_yvYOjccc8SqUTP",
     "original_document_id": "xE6MOwO3Dj9iAS0C4EpP",
     "version": "27",
-    "lastChanged": "1614835541351",
+    "lastChanged": "1615246536977",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -93,6 +93,9 @@
                         "plants",
                         "previews",
                         "mushroom_preview"
+                    ],
+                    [
+                        "Plants"
                     ],
                     [
                         "Plants",
@@ -213,6 +216,9 @@
                         "Plants",
                         "Mushroom",
                         "Mushroom"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -382,9 +388,6 @@
                         "ground_grid_mask"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "Base"
                     ],
@@ -535,22 +538,23 @@
                     ],
                     [
                         "Textures",
-                        "ui"
-                    ],
-                    [
-                        "Textures",
-                        "ui",
-                        "arrow"
-                    ],
-                    [
-                        "Textures",
-                        "ui",
-                        "check"
-                    ],
-                    [
-                        "Textures",
                         "ui",
                         "close_button"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "edit_arrow"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "edit_background"
+                    ],
+                    [
+                        "Textures",
+                        "ui",
+                        "edit_check"
                     ],
                     [
                         "Textures",
@@ -575,7 +579,6 @@
                     "1517446348227994:84813",
                     "1573611770955962:57531",
                     "1573611793439901:62252",
-                    "1573612914154946:135997",
                     "1573613067303226:285241",
                     "1573613069362298:285818",
                     "1573613074350480:293881",
@@ -1380,6 +1383,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "379",
+                    "uid": "1615243381814896:91427",
+                    "name": "Files\/File638.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1536,6 +1547,20 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1615243420658950:100941",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "true",
+                                    "attachLeft": "false",
+                                    "attachRight": "true",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -1586,7 +1611,8 @@
                 "39": "1614832696817300:521746",
                 "40": "1614832722210747:534615",
                 "41": "1614832730283317:540194",
-                "42": "1614832749427024:544513"
+                "42": "1614832749427024:544513",
+                "43": "1615243420564686:100677"
             }
         },
         "LayerComponent": {
@@ -1938,14 +1964,6 @@
                     "v": "Files\/File310.lsmat"
                 },
                 {
-                    "k": "314",
-                    "v": "Files\/File314.png"
-                },
-                {
-                    "k": "316",
-                    "v": "Files\/File316.png"
-                },
-                {
                     "k": "324",
                     "v": "Files\/File324.mesh"
                 },
@@ -2147,27 +2165,11 @@
                 },
                 {
                     "k": "465",
-                    "v": "Files\/File465.pvr"
+                    "v": "Files\/File465.png"
                 },
                 {
                     "k": "466",
                     "v": "Files\/File466.png"
-                },
-                {
-                    "k": "469",
-                    "v": "Files\/File469.png"
-                },
-                {
-                    "k": "470",
-                    "v": "Files\/File470.pvr"
-                },
-                {
-                    "k": "471",
-                    "v": "Files\/File471.png"
-                },
-                {
-                    "k": "472",
-                    "v": "Files\/File472.pvr"
                 },
                 {
                     "k": "473",
@@ -2248,14 +2250,6 @@
                 {
                     "k": "494",
                     "v": "Files\/File494.png"
-                },
-                {
-                    "k": "495",
-                    "v": "Files\/File495.png"
-                },
-                {
-                    "k": "496",
-                    "v": "Files\/File496.pvr"
                 },
                 {
                     "k": "518",
@@ -2500,6 +2494,50 @@
                 {
                     "k": "635",
                     "v": "Files\/File635.pvr"
+                },
+                {
+                    "k": "638",
+                    "v": "Files\/File638.pvr"
+                },
+                {
+                    "k": "639",
+                    "v": "Files\/File639.png"
+                },
+                {
+                    "k": "650",
+                    "v": "Files\/File650.png"
+                },
+                {
+                    "k": "651",
+                    "v": "Files\/File651.png"
+                },
+                {
+                    "k": "652",
+                    "v": "Files\/File652.png"
+                },
+                {
+                    "k": "653",
+                    "v": "Files\/File653.png"
+                },
+                {
+                    "k": "656",
+                    "v": "Files\/File656.pvr"
+                },
+                {
+                    "k": "658",
+                    "v": "Files\/File658.pvr"
+                },
+                {
+                    "k": "659",
+                    "v": "Files\/File659.png"
+                },
+                {
+                    "k": "660",
+                    "v": "Files\/File660.png"
+                },
+                {
+                    "k": "661",
+                    "v": "Files\/File661.pvr"
                 }
             ]
         },
@@ -2598,11 +2636,11 @@
                     },
                     {
                         "k": "81",
-                        "v": "Textures\/ui\/arrow.png"
+                        "v": "Textures\/ui\/edit_arrow.png"
                     },
                     {
                         "k": "82",
-                        "v": "Textures\/ui\/check.png"
+                        "v": "Textures\/ui\/edit_check.png"
                     },
                     {
                         "k": "83",
@@ -2907,6 +2945,10 @@
                     {
                         "k": "210",
                         "v": "Textures\/plants\/previews\/mushroom_preview.png"
+                    },
+                    {
+                        "k": "211",
+                        "v": "Textures\/ui\/edit_background.png"
                     }
                 ],
                 "hashes": [
@@ -3136,11 +3178,11 @@
                     },
                     {
                         "k": "81",
-                        "v": "61b560d1f46f1b26cb060a1d5eb697a1"
+                        "v": "9f2c5e799e3f7dbde11ce4565c63b8ec"
                     },
                     {
                         "k": "82",
-                        "v": "f3a170c2ce20ffdba1c1009bc00efe06"
+                        "v": "fe98b54285eb78b2ccc557df850c6854"
                     },
                     {
                         "k": "83",
@@ -3364,11 +3406,11 @@
                     },
                     {
                         "k": "152",
-                        "v": "412fa910bb7f154f53b854ee2855b993"
+                        "v": "8d0ecfec69b3d71feb5ae7a17017d301"
                     },
                     {
                         "k": "153",
-                        "v": "38cc56ab12fc7d0834ff89e2d2f87907"
+                        "v": "0e09401a2e96dc6faff629b1cd4a0589"
                     },
                     {
                         "k": "154",
@@ -3392,7 +3434,7 @@
                     },
                     {
                         "k": "159",
-                        "v": "81efe3f2806d42b721a8f1600d3be4fd"
+                        "v": "c90c64c1ca81122c1ff418fa8b285c06"
                     },
                     {
                         "k": "161",
@@ -3580,15 +3622,15 @@
                     },
                     {
                         "k": "211",
-                        "v": "ab60e986ddeb173ddaf60236deb8736d"
+                        "v": "ccd4dceaa13a2d23ef8cef2b3bfb6426"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-03T23:04:27",
+                        "lastModified": "2021-03-08T16:43:08",
                         "name": "Public",
-                        "hash": "0ca8fed0a0a583334e81fb956c648f19",
+                        "hash": "c347ff6c8236d29999f6d61333147611",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -4055,7 +4097,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-03-02T15:01:46",
                                 "name": "Textures",
-                                "hash": "2924bcb992463039bdb9e18c06b06d0b",
+                                "hash": "a47350e400230e794c03e1897db243ec",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4361,36 +4403,43 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-02T19:05:23",
+                                        "lastModified": "2021-03-08T17:14:45",
                                         "name": "ui",
-                                        "hash": "43ef52088033fb28052ecd83d9867222",
+                                        "hash": "97925ddcf11b6064fef2acc146c9313b",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "arrow.png",
-                                                "hash": "61b560d1f46f1b26cb060a1d5eb697a1",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-02-24T18:18:05",
-                                                "name": "check.png",
-                                                "hash": "f3a170c2ce20ffdba1c1009bc00efe06",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2021-03-02T19:04:08",
+                                                "lastModified": "2021-03-08T17:19:04",
                                                 "name": "close_button.png",
-                                                "hash": "81efe3f2806d42b721a8f1600d3be4fd",
+                                                "hash": "c90c64c1ca81122c1ff418fa8b285c06",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-03-02T17:29:37",
+                                                "lastModified": "2021-03-08T17:19:20",
+                                                "name": "edit_arrow.png",
+                                                "hash": "9f2c5e799e3f7dbde11ce4565c63b8ec",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-08T17:19:34",
+                                                "name": "edit_background.png",
+                                                "hash": "ccd4dceaa13a2d23ef8cef2b3bfb6426",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-08T17:18:54",
+                                                "name": "edit_check.png",
+                                                "hash": "fe98b54285eb78b2ccc557df850c6854",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2021-03-08T17:31:43",
                                                 "name": "finish_button.png",
-                                                "hash": "38cc56ab12fc7d0834ff89e2d2f87907",
+                                                "hash": "0e09401a2e96dc6faff629b1cd4a0589",
                                                 "children": ""
                                             },
                                             {
@@ -4402,9 +4451,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-03-02T17:31:32",
+                                                "lastModified": "2021-03-08T17:31:56",
                                                 "name": "start_button.png",
-                                                "hash": "412fa910bb7f154f53b854ee2855b993",
+                                                "hash": "8d0ecfec69b3d71feb5ae7a17017d301",
                                                 "children": ""
                                             }
                                         ]
@@ -5114,7 +5163,7 @@
                                 "additional": "",
                                 "resources": [
                                     {
-                                        "name": "arrow",
+                                        "name": "edit_arrow",
                                         "type": "1",
                                         "subtype": "9",
                                         "resourceId": "200",
@@ -5123,11 +5172,11 @@
                                         "fileId": "167",
                                         "originalId": "296",
                                         "publicId": "81",
-                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/POGGERS\/Public\/Textures\/arrow.png",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/edit_arrow.png",
                                         "additional": ""
                                     },
                                     {
-                                        "name": "check",
+                                        "name": "edit_check",
                                         "type": "1",
                                         "subtype": "9",
                                         "resourceId": "201",
@@ -5136,7 +5185,7 @@
                                         "fileId": "169",
                                         "originalId": "297",
                                         "publicId": "82",
-                                        "source": "D:\/Downloads\/UICheck.png",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/edit_check.png",
                                         "additional": ""
                                     },
                                     {
@@ -5149,7 +5198,7 @@
                                         "fileId": "461",
                                         "originalId": "462",
                                         "publicId": "152",
-                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/start.png",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/start_button.png",
                                         "additional": ""
                                     },
                                     {
@@ -5162,7 +5211,7 @@
                                         "fileId": "465",
                                         "originalId": "466",
                                         "publicId": "153",
-                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/finish.png",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/finish_button.png",
                                         "additional": ""
                                     },
                                     {
@@ -5175,7 +5224,20 @@
                                         "fileId": "493",
                                         "originalId": "494",
                                         "publicId": "159",
-                                        "source": "D:\/Downloads\/CloseButton.png",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/close_button.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "edit_background",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "379",
+                                        "dependency": "0",
+                                        "uid": "1615243381814896:91427",
+                                        "fileId": "638",
+                                        "originalId": "639",
+                                        "publicId": "211",
+                                        "source": "D:\/! Uni\/2021 Spring\/VIST370\/Group6\/Public\/Textures\/ui\/edit_background.png",
                                         "additional": ""
                                     }
                                 ]
@@ -6130,7 +6192,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1614670846663583:13159053"
+                    "1615243420564686:100677"
                 ]
             }
         },
@@ -6371,10 +6433,10 @@
                     "k": "1573612191023157:131851",
                     "v": {
                         "infos": {
-                            "originalSize": "4182",
-                            "compressedSize": "4182",
-                            "originalRAM": "262144",
-                            "compressedRAM": "262144",
+                            "originalSize": "1329",
+                            "compressedSize": "1329",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "1048576",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "false",
@@ -6382,7 +6444,7 @@
                                 "type": "0"
                             }
                         },
-                        "uncompressed_file": "314",
+                        "uncompressed_file": "651",
                         "compressed_files": ""
                     }
                 },
@@ -6390,10 +6452,10 @@
                     "k": "1573612191122461:131863",
                     "v": {
                         "infos": {
-                            "originalSize": "5999",
-                            "compressedSize": "5999",
-                            "originalRAM": "262144",
-                            "compressedRAM": "262144",
+                            "originalSize": "1187",
+                            "compressedSize": "1187",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "1048576",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "false",
@@ -6401,7 +6463,7 @@
                                 "type": "0"
                             }
                         },
-                        "uncompressed_file": "316",
+                        "uncompressed_file": "653",
                         "compressed_files": ""
                     }
                 },
@@ -6409,10 +6471,10 @@
                     "k": "1614727035695225:20079290",
                     "v": {
                         "infos": {
-                            "originalSize": "9024",
-                            "compressedSize": "6193",
-                            "originalRAM": "665632",
-                            "compressedRAM": "83328",
+                            "originalSize": "8493",
+                            "compressedSize": "10749",
+                            "originalRAM": "551756",
+                            "compressedRAM": "69632",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
@@ -6420,14 +6482,14 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "471",
+                        "uncompressed_file": "660",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "412fa910bb7f154f53b854ee2855b993",
+                                    "uncompressed_hash": "8d0ecfec69b3d71feb5ae7a17017d301",
                                     "settings_hash": "2049"
                                 },
-                                "v": "472"
+                                "v": "661"
                             }
                         ]
                     }
@@ -6436,27 +6498,19 @@
                     "k": "1614727565954003:20173681",
                     "v": {
                         "infos": {
-                            "originalSize": "7976",
-                            "compressedSize": "5830",
-                            "originalRAM": "664640",
-                            "compressedRAM": "83328",
+                            "originalSize": "8018",
+                            "compressedSize": "8018",
+                            "originalRAM": "551756",
+                            "compressedRAM": "551756",
                             "extension": "png",
                             "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
+                                "isCompressed": "false",
+                                "level": "0",
+                                "type": "0"
                             }
                         },
-                        "uncompressed_file": "469",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "38cc56ab12fc7d0834ff89e2d2f87907",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "470"
-                            }
-                        ]
+                        "uncompressed_file": "659",
+                        "compressed_files": ""
                     }
                 },
                 {
@@ -6598,10 +6652,10 @@
                     "k": "1614733484250035:20907001",
                     "v": {
                         "infos": {
-                            "originalSize": "4402",
-                            "compressedSize": "3246",
-                            "originalRAM": "547712",
-                            "compressedRAM": "68992",
+                            "originalSize": "5619",
+                            "compressedSize": "5135",
+                            "originalRAM": "514080",
+                            "compressedRAM": "64800",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
@@ -6609,14 +6663,14 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "495",
+                        "uncompressed_file": "650",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "81efe3f2806d42b721a8f1600d3be4fd",
+                                    "uncompressed_hash": "c90c64c1ca81122c1ff418fa8b285c06",
                                     "settings_hash": "2049"
                                 },
-                                "v": "496"
+                                "v": "656"
                             }
                         ]
                     }
@@ -6798,6 +6852,33 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "635"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1615243381814896:91427",
+                    "v": {
+                        "infos": {
+                            "originalSize": "2093",
+                            "compressedSize": "4000",
+                            "originalRAM": "1301680",
+                            "compressedRAM": "163240",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "652",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "ccd4dceaa13a2d23ef8cef2b3bfb6426",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "658"
                             }
                         ]
                     }
